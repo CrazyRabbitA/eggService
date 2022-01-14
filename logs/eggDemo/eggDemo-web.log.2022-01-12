@@ -1,0 +1,378 @@
+2022-01-12 19:30:07,911 WARN 28591 [-/172.18.51.231/-/110ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 28591
+hostname: guchi.local
+
+2022-01-12 19:35:04,398 WARN 30234 [-/172.18.51.231/-/66ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 30234
+hostname: guchi.local
+
+2022-01-12 19:35:47,286 WARN 30396 [-/172.18.51.231/-/39ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 30396
+hostname: guchi.local
+
+2022-01-12 19:58:37,180 WARN 34619 [-/172.18.51.231/-/102ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 34619
+hostname: guchi.local
+
+2022-01-12 23:07:27,581 WARN 72191 [-/192.168.31.116/-/16ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 72191
+hostname: guchi.local
+
+2022-01-12 23:07:33,437 WARN 72191 [-/192.168.31.116/-/9ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 72191
+hostname: guchi.local
+
+2022-01-12 23:07:42,458 WARN 72191 [-/192.168.31.116/-/4ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 72191
+hostname: guchi.local
+
+2022-01-12 23:10:33,207 WARN 73329 [-/192.168.31.116/-/73ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73329
+hostname: guchi.local
+
+2022-01-12 23:11:30,643 WARN 73544 [-/192.168.31.116/-/94ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73544
+hostname: guchi.local
+
+2022-01-12 23:11:37,624 WARN 73544 [-/192.168.31.116/-/3ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73544
+hostname: guchi.local
+
+2022-01-12 23:13:13,230 WARN 73666 [-/192.168.31.116/-/7ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73666
+hostname: guchi.local
+
+2022-01-12 23:13:43,927 WARN 73666 [-/192.168.31.116/-/4ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73666
+hostname: guchi.local
+
+2022-01-12 23:14:03,424 WARN 73666 [-/192.168.31.116/-/2ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73666
+hostname: guchi.local
+
+2022-01-12 23:14:15,726 WARN 73666 [-/192.168.31.116/-/5ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73666
+hostname: guchi.local
+
+2022-01-12 23:21:01,794 WARN 73666 [-/192.168.31.116/-/4ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 73666
+hostname: guchi.local
+
+2022-01-12 23:21:28,046 WARN 75768 [-/192.168.31.116/-/51ms POST /api/v1/users] nodejs.UnprocessableEntityError: 用户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:14:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "用户已存在"
+pid: 75768
+hostname: guchi.local
+
+2022-01-12 23:36:01,346 WARN 78951 [-/192.168.31.116/-/53ms POST /api/v1/users] nodejs.UnprocessableEntityError: 用户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:15:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "用户已存在"
+pid: 78951
+hostname: guchi.local
+
+2022-01-12 23:37:31,697 WARN 79297 [-/192.168.31.116/-/66ms POST /api/v1/users] nodejs.UnprocessableEntityError: 用户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:15:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "用户已存在"
+pid: 79297
+hostname: guchi.local
+
+2022-01-12 23:54:54,878 WARN 82897 [-/192.168.31.116/-/7ms POST /api/v1/users/login] nodejs.UnprocessableEntityError: 用户不存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.login (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:40:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "用户不存在"
+pid: 82897
+hostname: guchi.local
+
+2022-01-12 23:55:01,682 WARN 82897 [-/192.168.31.116/-/6ms POST /api/v1/users/login] nodejs.UnprocessableEntityError: 用户不存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.login (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:40:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "用户不存在"
+pid: 82897
+hostname: guchi.local
+
+2022-01-12 23:55:27,983 WARN 82897 [-/192.168.31.116/-/7ms POST /api/v1/users/login] nodejs.UnprocessableEntityError: 密码不正确
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.login (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:44:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "密码不正确"
+pid: 82897
+hostname: guchi.local
+

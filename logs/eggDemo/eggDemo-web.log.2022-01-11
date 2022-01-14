@@ -1,0 +1,246 @@
+2022-01-11 16:00:13,315 ERROR 29980 [-/127.0.0.1/-/1ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 29980
+hostname: guchi.local
+
+2022-01-11 16:03:09,189 ERROR 30684 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 30684
+hostname: guchi.local
+
+2022-01-11 16:04:47,931 ERROR 31091 [-/127.0.0.1/-/1ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 31091
+hostname: guchi.local
+
+2022-01-11 20:34:44,014 WARN 89267 [-/172.18.51.231/-/102ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 89267
+hostname: guchi.local
+
+2022-01-11 20:35:15,817 WARN 89267 [-/172.18.51.231/-/8ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 89267
+hostname: guchi.local
+
+2022-01-11 20:35:27,566 WARN 89267 [-/172.18.51.231/-/5ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 89267
+hostname: guchi.local
+
+2022-01-11 20:35:50,464 WARN 89267 [-/172.18.51.231/-/4ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 89267
+hostname: guchi.local
+
+2022-01-11 20:36:45,378 WARN 89267 [-/172.18.51.231/-/6ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 89267
+hostname: guchi.local
+
+2022-01-11 20:37:13,259 WARN 89267 [-/172.18.51.231/-/5ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 89267
+hostname: guchi.local
+
+2022-01-11 20:38:35,322 WARN 90087 [-/172.18.51.231/-/60ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 90087
+hostname: guchi.local
+
+2022-01-11 20:39:11,153 WARN 90227 [-/172.18.51.231/-/55ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 90227
+hostname: guchi.local
+
+2022-01-11 20:40:30,216 WARN 90506 [-/172.18.51.231/-/53ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 90506
+hostname: guchi.local
+
+2022-01-11 20:49:22,277 WARN 92266 [-/172.18.51.231/-/76ms POST /api/v1/users] nodejs.UnprocessableEntityError: 账户已存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:13:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+message: "账户已存在"
+pid: 92266
+hostname: guchi.local
+

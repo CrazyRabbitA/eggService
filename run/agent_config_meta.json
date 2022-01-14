@@ -1,0 +1,326 @@
+{
+  "keys": "/Users/dasouche/Desktop/eggDemo/config/config.default.js",
+  "middleware": "/Users/dasouche/Desktop/eggDemo/config/config.default.js",
+  "mongoose": {
+    "client": {
+      "url": "/Users/dasouche/Desktop/eggDemo/config/config.default.js",
+      "options": {
+        "useUnifiedTopology": "/Users/dasouche/Desktop/eggDemo/config/config.default.js"
+      },
+      "plugins": "/Users/dasouche/Desktop/eggDemo/config/config.default.js"
+    },
+    "url": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/config/config.default.js",
+    "options": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/config/config.default.js",
+    "plugins": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/config/config.default.js",
+      "type": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/dasouche/Desktop/eggDemo/config/config.default.js",
+    "allowMethods": "/Users/dasouche/Desktop/eggDemo/config/config.default.js"
+  },
+  "jwt": {
+    "secret": "/Users/dasouche/Desktop/eggDemo/config/config.default.js",
+    "expiresIn": "/Users/dasouche/Desktop/eggDemo/config/config.default.js"
+  },
+  "myAppName": "/Users/dasouche/Desktop/eggDemo/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/dasouche/Desktop/eggDemo/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "name": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "version": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "description": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "private": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "stop": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "dev": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "debug": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "test": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "cov": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "lint": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "ci": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "autod": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "url": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "license": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "env": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "level": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "port": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/dasouche/Desktop/eggDemo/node_modules/egg/config/config.default.js"
+}

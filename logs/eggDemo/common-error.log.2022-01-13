@@ -1,0 +1,1698 @@
+2022-01-13 00:41:14,024 ERROR 82897 [-/192.168.31.116/-/33ms POST /api/v1/users] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Hash.update (internal/crypto/hash.js:84:11)
+    at Helper.exports.md5 (/Users/dasouche/Desktop/eggDemo/app/extend/helper.js:4:37)
+    at UserService.createUser (/Users/dasouche/Desktop/eggDemo/app/service/user.js:17:41)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:17:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 82897
+hostname: guchi.local
+
+2022-01-13 00:46:23,084 ERROR 94284 [-/192.168.31.116/-/32ms POST /api/v1/users] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Hash.update (internal/crypto/hash.js:84:11)
+    at Helper.exports.md5 (/Users/dasouche/Desktop/eggDemo/app/extend/helper.js:4:37)
+    at UserService.createUser (/Users/dasouche/Desktop/eggDemo/app/service/user.js:17:41)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:17:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+code: "ERR_INVALID_ARG_TYPE"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 94284
+hostname: guchi.local
+
+2022-01-13 00:48:23,840 ERROR 94284 [-/192.168.31.116/-/17ms POST /api/v1/users] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Hash.update (internal/crypto/hash.js:84:11)
+    at Helper.exports.md5 (/Users/dasouche/Desktop/eggDemo/app/extend/helper.js:4:37)
+    at UserService.createUser (/Users/dasouche/Desktop/eggDemo/app/service/user.js:17:41)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:17:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+code: "ERR_INVALID_ARG_TYPE"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 94284
+hostname: guchi.local
+
+2022-01-13 00:49:15,304 ERROR 94284 [-/192.168.31.116/-/3ms POST /api/v1/users] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Hash.update (internal/crypto/hash.js:84:11)
+    at Helper.exports.md5 (/Users/dasouche/Desktop/eggDemo/app/extend/helper.js:4:37)
+    at UserService.createUser (/Users/dasouche/Desktop/eggDemo/app/service/user.js:17:41)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:17:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+code: "ERR_INVALID_ARG_TYPE"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 94284
+hostname: guchi.local
+
+2022-01-13 00:53:26,284 ERROR 94284 [-/192.168.31.116/-/38ms POST /api/v1/users] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Hash.update (internal/crypto/hash.js:84:11)
+    at Helper.exports.md5 (/Users/dasouche/Desktop/eggDemo/app/extend/helper.js:4:37)
+    at UserService.createUser (/Users/dasouche/Desktop/eggDemo/app/service/user.js:17:41)
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:17:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+code: "ERR_INVALID_ARG_TYPE"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 94284
+hostname: guchi.local
+
+2022-01-13 02:56:07,843 ERROR 21753 [-/127.0.0.1/-/25ms GET /api/v1/user] nodejs.TypeError: Cannot read property 'userName' of null
+    at UserController.getCurrentUser (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:67:32)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21753
+hostname: guchi.local
+
+2022-01-13 14:49:37,441 ERROR 54482 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 14:49:37,446 ERROR 54482 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 54482
+hostname: guchi.local
+
+2022-01-13 14:49:37,449 ERROR 54482 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 54482
+hostname: guchi.local
+
+2022-01-13 14:49:37,454 ERROR 54482 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 54482
+hostname: guchi.local
+
+2022-01-13 14:51:27,164 ERROR 55012 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 14:51:27,166 ERROR 55012 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 55012
+hostname: guchi.local
+
+2022-01-13 14:51:27,167 ERROR 55012 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 55012
+hostname: guchi.local
+
+2022-01-13 14:51:27,176 ERROR 55012 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 55012
+hostname: guchi.local
+
+2022-01-13 15:47:33,914 ERROR 69799 [-/::1/-/25ms GET /api/v1/user] nodejs.TypeError: Cannot read property 'userName' of null
+    at UserController.getCurrentUser (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:62:32)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 69799
+hostname: guchi.local
+
+2022-01-13 15:47:54,057 ERROR 69799 [-/::1/-/2ms POST /api/v1/users] nodejs.TypeError: userService.findByUserName is not a function
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:9:31)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 69799
+hostname: guchi.local
+
+2022-01-13 15:49:15,998 ERROR 69799 [-/::1/-/1ms POST /api/v1/users] nodejs.TypeError: userService.findByUserName is not a function
+    at UserController.create (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:9:31)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dasouche/Desktop/eggDemo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 69799
+hostname: guchi.local
+
+2022-01-13 15:59:34,796 ERROR 71041 [-/172.18.51.231/-/6ms POST /api/v1/notes] nodejs.ValidationError: Note validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2782:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2574:17
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+errors: {"userId":{"name":"ValidatorError","message":"Path `userId` is required.","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Note validation failed"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 71041
+hostname: guchi.local
+
+2022-01-13 16:00:14,494 ERROR 71041 [-/172.18.51.231/-/4ms POST /api/v1/notes] nodejs.ValidationError: Note validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2782:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2574:17
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+errors: {"userId":{"name":"ValidatorError","message":"Path `userId` is required.","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Note validation failed"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 71041
+hostname: guchi.local
+
+2022-01-13 16:02:06,096 ERROR 74302 [-/172.18.51.231/-/90ms POST /api/v1/notes] nodejs.ValidationError: Note validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2782:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2574:17
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+errors: {"userId":{"name":"ValidatorError","message":"Path `userId` is required.","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Note validation failed"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 74302
+hostname: guchi.local
+
+2022-01-13 16:02:17,490 ERROR 74302 [-/172.18.51.231/-/5ms POST /api/v1/notes] nodejs.ValidationError: Note validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2782:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2574:17
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+errors: {"userId":{"name":"ValidatorError","message":"Path `userId` is required.","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Note validation failed"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 74302
+hostname: guchi.local
+
+2022-01-13 16:02:44,072 ERROR 74490 [-/172.18.51.231/-/172ms POST /api/v1/notes] nodejs.ValidationError: Note validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2782:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2574:17
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+errors: {"userId":{"name":"ValidatorError","message":"Path `userId` is required.","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Note validation failed"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 74490
+hostname: guchi.local
+
+2022-01-13 16:04:19,227 ERROR 74899 [-/172.18.51.231/-/54ms POST /api/v1/notes] nodejs.ValidationError: Note validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2782:32)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/document.js:2574:17
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+errors: {"userId":{"name":"ValidatorError","message":"Path `userId` is required.","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Note validation failed"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 74899
+hostname: guchi.local
+
+2022-01-13 16:24:13,727 ERROR 80130 [-/172.18.51.231/-/25ms GET /api/v1/notes] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:19:26)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:27)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 80130
+hostname: guchi.local
+
+2022-01-13 16:31:31,110 ERROR 82066 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82066
+hostname: guchi.local
+
+2022-01-13 16:31:31,118 ERROR 82066 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82066
+hostname: guchi.local
+
+2022-01-13 16:33:49,061 ERROR 82066 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82066
+hostname: guchi.local
+
+2022-01-13 16:33:49,065 ERROR 82066 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82066
+hostname: guchi.local
+
+2022-01-13 16:34:26,488 ERROR 82925 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82925
+hostname: guchi.local
+
+2022-01-13 16:34:26,493 ERROR 82925 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82925
+hostname: guchi.local
+
+2022-01-13 16:37:39,258 ERROR 82925 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82925
+hostname: guchi.local
+
+2022-01-13 16:37:39,268 ERROR 82925 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 82925
+hostname: guchi.local
+
+2022-01-13 16:39:17,526 ERROR 84331 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:18:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 84331
+hostname: guchi.local
+
+2022-01-13 16:39:17,547 ERROR 84331 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:18:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 84331
+hostname: guchi.local
+
+2022-01-13 16:40:14,397 ERROR 84592 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:19:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 84592
+hostname: guchi.local
+
+2022-01-13 16:40:14,398 ERROR 84592 nodejs.TypeError: note.findOne is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:19:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 84592
+hostname: guchi.local
+
+2022-01-13 16:43:46,294 ERROR 85147 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:19:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 85147
+hostname: guchi.local
+
+2022-01-13 16:43:46,296 ERROR 85147 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:19:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 85147
+hostname: guchi.local
+
+2022-01-13 16:44:54,519 ERROR 85669 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 85669
+hostname: guchi.local
+
+2022-01-13 16:44:54,523 ERROR 85669 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 85669
+hostname: guchi.local
+
+2022-01-13 16:47:28,465 ERROR 86446 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 86446
+hostname: guchi.local
+
+2022-01-13 16:47:28,466 ERROR 86446 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 86446
+hostname: guchi.local
+
+2022-01-13 16:50:56,981 ERROR 87295 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 87295
+hostname: guchi.local
+
+2022-01-13 16:50:56,998 ERROR 87295 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 87295
+hostname: guchi.local
+
+2022-01-13 16:54:42,782 ERROR 88378 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 88378
+hostname: guchi.local
+
+2022-01-13 16:54:42,783 ERROR 88378 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 88378
+hostname: guchi.local
+
+2022-01-13 16:56:32,822 ERROR 88906 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:19:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 88906
+hostname: guchi.local
+
+2022-01-13 16:56:32,827 ERROR 88906 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.getNoteList (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 88906
+hostname: guchi.local
+
+2022-01-13 17:00:42,601 ERROR 88906 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 17:30:56,277 ERROR 98224 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: ObjectId is not defined
+    at module.exports (/Users/dasouche/Desktop/eggDemo/app/model/note.js:7:19)
+    at getExports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+pid: 98224
+hostname: guchi.local
+
+2022-01-13 17:43:53,813 ERROR 1692 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:31:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 1692
+hostname: guchi.local
+
+2022-01-13 17:43:53,818 ERROR 1692 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:32:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 1692
+hostname: guchi.local
+
+2022-01-13 17:46:10,984 ERROR 1692 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:31:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 1692
+hostname: guchi.local
+
+2022-01-13 17:46:10,996 ERROR 1692 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:32:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 1692
+hostname: guchi.local
+
+2022-01-13 17:46:40,867 ERROR 2862 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:31:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 2862
+hostname: guchi.local
+
+2022-01-13 17:46:40,870 ERROR 2862 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:32:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 2862
+hostname: guchi.local
+
+2022-01-13 17:47:40,781 ERROR 3129 nodejs.TypeError: note.find is not a function
+    at NoteService.queryNotes (/Users/dasouche/Desktop/eggDemo/app/service/note.js:20:20)
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:31:33)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+
+pid: 3129
+hostname: guchi.local
+
+2022-01-13 17:47:40,795 ERROR 3129 nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+pid: 3129
+hostname: guchi.local
+
+2022-01-13 17:48:01,634 ERROR 3232 nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+pid: 3232
+hostname: guchi.local
+
+2022-01-13 17:48:01,641 ERROR 3232 nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+pid: 3232
+hostname: guchi.local
+
+2022-01-13 17:49:24,174 ERROR 3232 nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+pid: 3232
+hostname: guchi.local
+
+2022-01-13 17:49:24,181 ERROR 3232 nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+pid: 3232
+hostname: guchi.local
+
+2022-01-13 17:49:32,573 ERROR 3232 nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+pid: 3232
+hostname: guchi.local
+
+2022-01-13 17:49:32,581 ERROR 3232 nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+pid: 3232
+hostname: guchi.local
+
+2022-01-13 17:54:14,591 ERROR 4632 [-/172.18.74.108/-/166ms POST /api/v1/updateNote] nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4632
+hostname: guchi.local
+
+2022-01-13 18:34:04,353 ERROR 1686 nodejs.ClusterClientNoResponseError: client no response in 1168153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 1686
+hostname: guchi.local
+
+2022-01-13 18:34:04,384 ERROR 7629 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 19:27:31,152 ERROR 7629 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 19:27:31,197 ERROR 1686 nodejs.ClusterClientNoResponseError: client no response in 586248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 1686
+hostname: guchi.local
+
+2022-01-13 20:18:36,891 ERROR 4343 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 20:18:36,901 ERROR 4343 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 4343
+hostname: guchi.local
+
+2022-01-13 20:18:36,943 ERROR 4343 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 4343
+hostname: guchi.local
+
+2022-01-13 20:18:37,035 ERROR 4343 [-/127.0.0.1/-/1ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 4343
+hostname: guchi.local
+
+2022-01-13 20:22:45,272 ERROR 5662 [-/172.18.51.231/-/39ms POST /api/v1/addNote] nodejs.ReferenceError: note is not defined
+    at NoteController.addNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:11:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5662
+hostname: guchi.local
+
+2022-01-13 20:24:16,624 ERROR 6031 [-/172.18.51.231/-/82ms POST /api/v1/addNote] nodejs.ReferenceError: note is not defined
+    at NoteController.addNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:11:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6031
+hostname: guchi.local
+
+2022-01-13 20:26:18,466 ERROR 6542 [-/172.18.51.231/-/27ms POST /api/v1/updateNote] nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6542
+hostname: guchi.local
+
+2022-01-13 20:26:48,045 ERROR 6542 [-/172.18.51.231/-/10ms POST /api/v1/updateNote] nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/error.js:59:12)
+    at toError (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/utils.js:130:22)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/operations/common_functions.js:384:39
+    at handler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/topology.js:961:24)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/sdam/server.js:567:5)
+    at MessageStream.messageHandler (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/connection.js:308:5)
+    at MessageStream.emit (events.js:376:20)
+    at processIncomingData (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:745:22)
+    at Socket.emit (events.js:376:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6542
+hostname: guchi.local
+
+2022-01-13 20:57:52,274 ERROR 14950 [-/172.18.51.231/-/62ms DELETE /api/v1/deleteNote/:noteId] nodejs.CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\":noteId\""
+kind: "ObjectId"
+value: ":noteId"
+path: "_id"
+reason: {}
+valueType: "string"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14950
+hostname: guchi.local
+
+2022-01-13 21:04:46,745 ERROR 16799 [-/172.18.51.231/-/42ms POST /api/v1/updateNote] nodejs.ReferenceError: body is not defined
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:32:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16799
+hostname: guchi.local
+
+2022-01-13 21:12:57,782 ERROR 19148 [-/172.18.51.231/-/48ms GET /api/v1/queryNotes] nodejs.TypeError: Cannot read property 'user' of undefined
+    at NoteController.queryNotes (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:18:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 19148
+hostname: guchi.local
+
+2022-01-13 21:14:36,874 ERROR 19701 [-/172.18.51.231/-/137ms GET /api/v1/queryNotes] nodejs.TypeError: Cannot read property 'user' of undefined
+    at NoteController.queryNotes (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 19701
+hostname: guchi.local
+
+2022-01-13 21:26:37,709 ERROR 22895 [-/172.18.51.231/-/41ms GET /api/v1/queryNotes] nodejs.TypeError: Cannot read property 'user' of undefined
+    at NoteController.queryNotes (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:20:37)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dasouche/Desktop/eggDemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dasouche/Desktop/eggDemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:15
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 22895
+hostname: guchi.local
+
+2022-01-13 21:39:47,522 ERROR 26440 [-/::1/-/31ms GET /api/v1/queryNotes] nodejs.SyntaxError: Unexpected token _ in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at NoteController.queryNotes (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:24:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:41:56
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 26440
+hostname: guchi.local
+
+2022-01-13 21:40:46,806 ERROR 26705 [-/::1/-/50ms GET /api/v1/queryNotes] nodejs.SyntaxError: Unexpected token _ in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at NoteController.queryNotes (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:23:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:41:56
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 26705
+hostname: guchi.local
+
+2022-01-13 21:43:02,752 ERROR 27285 [-/::1/-/64ms GET /api/v1/queryNotes] nodejs.SyntaxError: Unexpected token _ in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at NoteController.queryNotes (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:25:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:41:56
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 27285
+hostname: guchi.local
+
+2022-01-13 21:43:42,193 ERROR 27458 [-/::1/-/35ms GET /api/v1/queryNotes] nodejs.SyntaxError: Unexpected token _ in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at NoteController.queryNotes (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:25:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:41:56
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 27458
+hostname: guchi.local
+
+2022-01-13 22:14:26,019 ERROR 30700 [-/::1/-/11ms POST /api/v1/updateNote] nodejs.TypeError: Cannot read property 'update' of null
+    at NoteController.updateNote (/Users/dasouche/Desktop/eggDemo/app/controller/note.js:51:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/app/middleware/auth.js:21:9
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 30700
+hostname: guchi.local
+
+2022-01-13 22:48:11,118 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 980142ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-13 22:48:11,010 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 23:08:44,007 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 23:08:44,012 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 1213719ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-13 23:29:37,007 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 23:29:37,012 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 1209315ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-13 23:45:21,011 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 902927ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-13 23:45:21,007 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 23:57:42,012 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-13 23:57:42,017 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 702805ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 00:07:38,009 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:07:38,098 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 572407ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+

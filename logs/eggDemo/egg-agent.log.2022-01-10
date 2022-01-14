@@ -1,0 +1,225 @@
+2022-01-08 18:00:24,275 INFO 87604 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:00:24,285 INFO 87604 [egg:core] dump config after load, 4ms
+2022-01-08 18:00:24,345 INFO 87604 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:00:24,345 INFO 87604 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:00:24,345 INFO 87604 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:00:24,345 INFO 87604 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:00:24,346 INFO 87604 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:00:24,346 INFO 87604 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:00:24,346 INFO 87604 [egg-watcher:agent] watcher start success
+2022-01-08 18:00:24,367 INFO 87604 [egg:core] dump config after ready, 15ms
+2022-01-08 18:00:26,177 INFO 87604 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17955498,"size":64,"blocks":0,"atimeMs":1641636026175.172,"mtimeMs":1641636026175.172,"ctimeMs":1641636026175.172,"birthtimeMs":1641636026175.172,"atime":"2022-01-08T10:00:26.175Z","mtime":"2022-01-08T10:00:26.175Z","ctime":"2022-01-08T10:00:26.175Z","birthtime":"2022-01-08T10:00:26.175Z"},"remove":false,"isDirectory":true,"isFile":false}
+2022-01-08 18:00:48,302 INFO 87731 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:00:48,313 INFO 87731 [egg:core] dump config after load, 5ms
+2022-01-08 18:00:48,392 INFO 87731 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:00:48,392 INFO 87731 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:00:48,392 INFO 87731 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:00:48,392 INFO 87731 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:00:48,392 INFO 87731 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:00:48,393 INFO 87731 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:00:48,393 INFO 87731 [egg-watcher:agent] watcher start success
+2022-01-08 18:00:48,405 INFO 87731 [egg:core] dump config after ready, 4ms
+2022-01-08 18:01:59,967 INFO 87993 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:01:59,974 INFO 87993 [egg:core] dump config after load, 4ms
+2022-01-08 18:02:00,012 INFO 87993 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:02:00,012 INFO 87993 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:02:00,013 INFO 87993 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:02:00,013 INFO 87993 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:02:00,013 INFO 87993 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:02:00,013 INFO 87993 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:02:00,013 INFO 87993 [egg-watcher:agent] watcher start success
+2022-01-08 18:02:00,024 INFO 87993 [egg:core] dump config after ready, 5ms
+2022-01-08 18:02:13,572 INFO 88063 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:02:13,580 INFO 88063 [egg:core] dump config after load, 3ms
+2022-01-08 18:02:13,620 INFO 88063 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:02:13,620 INFO 88063 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:02:13,620 INFO 88063 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:02:13,620 INFO 88063 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:02:13,620 INFO 88063 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:02:13,621 INFO 88063 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:02:13,621 INFO 88063 [egg-watcher:agent] watcher start success
+2022-01-08 18:02:13,633 INFO 88063 [egg:core] dump config after ready, 6ms
+2022-01-08 18:03:43,451 INFO 88406 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:03:43,459 INFO 88406 [egg:core] dump config after load, 4ms
+2022-01-08 18:03:43,506 INFO 88406 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:03:43,506 INFO 88406 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:03:43,507 INFO 88406 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:03:43,507 INFO 88406 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:03:43,507 INFO 88406 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:03:43,507 INFO 88406 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:03:43,507 INFO 88406 [egg-watcher:agent] watcher start success
+2022-01-08 18:03:43,519 INFO 88406 [egg:core] dump config after ready, 4ms
+2022-01-08 18:15:19,649 INFO 90860 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:15:19,660 INFO 90860 [egg:core] dump config after load, 7ms
+2022-01-08 18:15:19,740 INFO 90860 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:15:19,740 INFO 90860 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:15:19,740 INFO 90860 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:15:19,740 INFO 90860 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:15:19,740 INFO 90860 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:15:19,740 INFO 90860 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:15:19,740 INFO 90860 [egg-watcher:agent] watcher start success
+2022-01-08 18:15:19,815 INFO 90860 [egg:core] dump config after ready, 59ms
+2022-01-08 18:15:35,487 INFO 90933 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:15:35,493 INFO 90933 [egg:core] dump config after load, 3ms
+2022-01-08 18:15:35,519 INFO 90933 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:15:35,519 INFO 90933 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:15:35,519 INFO 90933 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:15:35,519 INFO 90933 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:15:35,519 INFO 90933 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:15:35,519 INFO 90933 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:15:35,519 INFO 90933 [egg-watcher:agent] watcher start success
+2022-01-08 18:15:35,535 INFO 90933 [egg:core] dump config after ready, 7ms
+2022-01-08 18:26:02,088 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/model","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17962928,"size":64,"blocks":0,"atimeMs":1641637562013.648,"mtimeMs":1641637562013.648,"ctimeMs":1641637562013.648,"birthtimeMs":1641637562013.648,"atime":"2022-01-08T10:26:02.014Z","mtime":"2022-01-08T10:26:02.014Z","ctime":"2022-01-08T10:26:02.014Z","birthtime":"2022-01-08T10:26:02.014Z"},"remove":false,"isDirectory":true,"isFile":false}
+2022-01-08 18:26:25,137 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17963029,"size":0,"blocks":0,"atimeMs":1641637585083.2332,"mtimeMs":1641637585083.2332,"ctimeMs":1641637585083.2332,"birthtimeMs":1641637585083.2332,"atime":"2022-01-08T10:26:25.083Z","mtime":"2022-01-08T10:26:25.083Z","ctime":"2022-01-08T10:26:25.083Z","birthtime":"2022-01-08T10:26:25.083Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:26:25,340 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/model/user.js rename
+2022-01-08 18:27:54,382 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17963029,"size":266,"blocks":8,"atimeMs":1641637585083.2332,"mtimeMs":1641637674315.896,"ctimeMs":1641637674315.896,"birthtimeMs":1641637585083.2332,"atime":"2022-01-08T10:26:25.083Z","mtime":"2022-01-08T10:27:54.316Z","ctime":"2022-01-08T10:27:54.316Z","birthtime":"2022-01-08T10:26:25.083Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:27:54,382 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/model/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:27:54,583 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/model/user.js~ rename
+2022-01-08 18:29:21,566 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js~ rename
+2022-01-08 18:29:21,361 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":230,"blocks":8,"atimeMs":1641634988248.3254,"mtimeMs":1641637761305.1755,"ctimeMs":1641637761305.1755,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T09:43:08.248Z","mtime":"2022-01-08T10:29:21.305Z","ctime":"2022-01-08T10:29:21.305Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:29:21,362 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:29:27,298 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js change
+2022-01-08 18:29:27,093 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:29:27,093 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":230,"blocks":8,"atimeMs":1641637762152.9622,"mtimeMs":1641637767073.7573,"ctimeMs":1641637767073.7573,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T10:29:22.153Z","mtime":"2022-01-08T10:29:27.074Z","ctime":"2022-01-08T10:29:27.074Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:30:01,723 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js change
+2022-01-08 18:30:01,521 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:30:01,522 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":249,"blocks":8,"atimeMs":1641637768706.2815,"mtimeMs":1641637801460.9983,"ctimeMs":1641637801460.9983,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T10:29:28.706Z","mtime":"2022-01-08T10:30:01.461Z","ctime":"2022-01-08T10:30:01.461Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:30:41,271 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js change
+2022-01-08 18:30:41,067 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:30:41,067 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":255,"blocks":8,"atimeMs":1641637804105.6538,"mtimeMs":1641637840933.0527,"ctimeMs":1641637840933.0527,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T10:30:04.106Z","mtime":"2022-01-08T10:30:40.933Z","ctime":"2022-01-08T10:30:40.933Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:30:47,885 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js~ rename
+2022-01-08 18:30:47,680 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":268,"blocks":8,"atimeMs":1641637842509.7375,"mtimeMs":1641637847668.1816,"ctimeMs":1641637847668.1816,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T10:30:42.510Z","mtime":"2022-01-08T10:30:47.668Z","ctime":"2022-01-08T10:30:47.668Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:30:47,681 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:30:57,377 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js~ rename
+2022-01-08 18:30:57,171 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":285,"blocks":8,"atimeMs":1641637849166.6304,"mtimeMs":1641637857156.2878,"ctimeMs":1641637857156.2878,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T10:30:49.167Z","mtime":"2022-01-08T10:30:57.156Z","ctime":"2022-01-08T10:30:57.156Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:30:57,172 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:31:23,082 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":358,"blocks":8,"atimeMs":1641637858557.9023,"mtimeMs":1641637883017.7026,"ctimeMs":1641637883017.7026,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T10:30:58.558Z","mtime":"2022-01-08T10:31:23.018Z","ctime":"2022-01-08T10:31:23.018Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:31:23,082 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:31:23,285 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js~ rename
+2022-01-08 18:31:31,367 WARN 90933 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/home.js change
+2022-01-08 18:31:31,160 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-08 18:31:31,161 INFO 90933 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908447,"size":365,"blocks":8,"atimeMs":1641637885159.8037,"mtimeMs":1641637891150.0554,"ctimeMs":1641637891150.0554,"birthtimeMs":1641634987191.4978,"atime":"2022-01-08T10:31:25.160Z","mtime":"2022-01-08T10:31:31.150Z","ctime":"2022-01-08T10:31:31.150Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-08 18:32:26,082 INFO 94528 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-08 18:32:26,090 INFO 94528 [egg:core] dump config after load, 4ms
+2022-01-08 18:32:26,125 INFO 94528 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-08 18:32:26,125 INFO 94528 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-08 18:32:26,126 INFO 94528 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-08 18:32:26,126 INFO 94528 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-08 18:32:26,126 INFO 94528 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-08 18:32:26,126 INFO 94528 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-08 18:32:26,126 INFO 94528 [egg-watcher:agent] watcher start success
+2022-01-08 18:32:26,140 INFO 94528 [egg:core] dump config after ready, 4ms
+2022-01-10 22:07:11,163 INFO 26832 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-10 22:07:11,170 INFO 26832 [egg:core] dump config after load, 3ms
+2022-01-10 22:07:11,208 INFO 26832 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-10 22:07:11,208 INFO 26832 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-10 22:07:11,208 INFO 26832 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-10 22:07:11,208 INFO 26832 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-10 22:07:11,208 INFO 26832 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-10 22:07:11,208 INFO 26832 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-10 22:07:11,208 INFO 26832 [egg-watcher:agent] watcher start success
+2022-01-10 22:07:11,219 INFO 26832 [egg:core] dump config after ready, 4ms
+2022-01-10 22:38:17,669 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/tsconfig.json rename
+2022-01-10 22:38:17,462 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/tsconfig.json~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:38:17,467 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/tsconfig.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18175361,"size":163,"blocks":8,"atimeMs":1641825497397.776,"mtimeMs":1641825497445.224,"ctimeMs":1641825497445.224,"birthtimeMs":1641825497397.776,"atime":"2022-01-10T14:38:17.398Z","mtime":"2022-01-10T14:38:17.445Z","ctime":"2022-01-10T14:38:17.445Z","birthtime":"2022-01-10T14:38:17.398Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:38:30,512 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/tsconfig.json rename
+2022-01-10 22:38:30,308 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/user.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18175361,"size":163,"blocks":8,"atimeMs":1641825497397.776,"mtimeMs":1641825497445.224,"ctimeMs":1641825510296.7522,"birthtimeMs":1641825497397.776,"atime":"2022-01-10T14:38:17.398Z","mtime":"2022-01-10T14:38:17.445Z","ctime":"2022-01-10T14:38:30.297Z","birthtime":"2022-01-10T14:38:17.398Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:38:30,309 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/tsconfig.json","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:38:36,621 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/user.json~ rename
+2022-01-10 22:38:36,418 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/user.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18175361,"size":139,"blocks":8,"atimeMs":1641825516407.0015,"mtimeMs":1641825516407.3142,"ctimeMs":1641825516407.3142,"birthtimeMs":1641825497397.776,"atime":"2022-01-10T14:38:36.407Z","mtime":"2022-01-10T14:38:36.407Z","ctime":"2022-01-10T14:38:36.407Z","birthtime":"2022-01-10T14:38:17.398Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:38:36,420 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/user.json~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:38:53,084 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/user.json~ rename
+2022-01-10 22:38:52,882 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/user.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18175361,"size":89,"blocks":8,"atimeMs":1641825532834.6099,"mtimeMs":1641825532834.885,"ctimeMs":1641825532834.885,"birthtimeMs":1641825497397.776,"atime":"2022-01-10T14:38:52.835Z","mtime":"2022-01-10T14:38:52.835Z","ctime":"2022-01-10T14:38:52.835Z","birthtime":"2022-01-10T14:38:17.398Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:38:52,883 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/user.json~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:39:22,757 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/user.json change
+2022-01-10 22:39:22,554 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/user.json~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:39:22,556 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/user.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18175361,"size":47,"blocks":8,"atimeMs":1641825562492.5583,"mtimeMs":1641825562493.0117,"ctimeMs":1641825562493.0117,"birthtimeMs":1641825497397.776,"atime":"2022-01-10T14:39:22.493Z","mtime":"2022-01-10T14:39:22.493Z","ctime":"2022-01-10T14:39:22.493Z","birthtime":"2022-01-10T14:38:17.398Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:39:33,149 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/user.json change
+2022-01-10 22:39:32,948 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/user.json~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:39:32,948 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/user.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18175361,"size":39,"blocks":8,"atimeMs":1641825572935.7559,"mtimeMs":1641825572935.8716,"ctimeMs":1641825572935.8716,"birthtimeMs":1641825497397.776,"atime":"2022-01-10T14:39:32.936Z","mtime":"2022-01-10T14:39:32.936Z","ctime":"2022-01-10T14:39:32.936Z","birthtime":"2022-01-10T14:38:17.398Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:39:50,330 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/user.json rename
+2022-01-10 22:39:50,129 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/user.json","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:50:54,203 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:50:54,205 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":914,"blocks":8,"atimeMs":1641636927894.1887,"mtimeMs":1641826254141.1343,"ctimeMs":1641826254141.1343,"birthtimeMs":1641634987190.712,"atime":"2022-01-08T10:15:27.894Z","mtime":"2022-01-10T14:50:54.141Z","ctime":"2022-01-10T14:50:54.141Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:50:54,407 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js change
+2022-01-10 22:51:02,165 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js~ rename
+2022-01-10 22:51:01,964 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":929,"blocks":8,"atimeMs":1641826256843.168,"mtimeMs":1641826261946.981,"ctimeMs":1641826261946.981,"birthtimeMs":1641634987190.712,"atime":"2022-01-10T14:50:56.843Z","mtime":"2022-01-10T14:51:01.947Z","ctime":"2022-01-10T14:51:01.947Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:51:01,965 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:51:06,228 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js~ rename
+2022-01-10 22:51:06,025 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":946,"blocks":8,"atimeMs":1641826262559.3452,"mtimeMs":1641826266022.9922,"ctimeMs":1641826266022.9922,"birthtimeMs":1641634987190.712,"atime":"2022-01-10T14:51:02.559Z","mtime":"2022-01-10T14:51:06.023Z","ctime":"2022-01-10T14:51:06.023Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:51:06,027 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:51:10,040 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js change
+2022-01-10 22:51:09,839 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:51:09,839 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":951,"blocks":8,"atimeMs":1641826268307.5452,"mtimeMs":1641826269820.287,"ctimeMs":1641826269820.287,"birthtimeMs":1641634987190.712,"atime":"2022-01-10T14:51:08.308Z","mtime":"2022-01-10T14:51:09.820Z","ctime":"2022-01-10T14:51:09.820Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:51:21,799 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js change
+2022-01-10 22:51:21,598 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:51:21,598 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":992,"blocks":8,"atimeMs":1641826270387.0178,"mtimeMs":1641826281586.974,"ctimeMs":1641826281586.974,"birthtimeMs":1641634987190.712,"atime":"2022-01-10T14:51:10.387Z","mtime":"2022-01-10T14:51:21.587Z","ctime":"2022-01-10T14:51:21.587Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:51:27,191 WARN 26832 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js change
+2022-01-10 22:51:26,988 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 22:51:26,989 INFO 26832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":991,"blocks":8,"atimeMs":1641826282108.765,"mtimeMs":1641826286978.1135,"ctimeMs":1641826286978.1135,"birthtimeMs":1641634987190.712,"atime":"2022-01-10T14:51:22.109Z","mtime":"2022-01-10T14:51:26.978Z","ctime":"2022-01-10T14:51:26.978Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 22:51:36,196 INFO 39942 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-10 22:51:36,203 INFO 39942 [egg:core] dump config after load, 3ms
+2022-01-10 22:51:36,245 INFO 39942 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-10 22:51:36,245 INFO 39942 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-10 22:51:36,245 INFO 39942 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-10 22:51:36,245 INFO 39942 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-10 22:51:36,245 INFO 39942 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-10 22:51:36,245 INFO 39942 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-10 22:51:36,245 INFO 39942 [egg-watcher:agent] watcher start success
+2022-01-10 22:51:36,264 INFO 39942 [egg:core] dump config after ready, 4ms
+2022-01-10 23:04:15,152 WARN 39942 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js~ rename
+2022-01-10 23:04:14,949 INFO 39942 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":943,"blocks":8,"atimeMs":1641826304486.0637,"mtimeMs":1641827054882.229,"ctimeMs":1641827054882.229,"birthtimeMs":1641634987190.712,"atime":"2022-01-10T14:51:44.486Z","mtime":"2022-01-10T15:04:14.882Z","ctime":"2022-01-10T15:04:14.882Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 23:04:14,951 INFO 39942 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 23:04:32,819 WARN 39942 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/config/config.default.js~ rename
+2022-01-10 23:04:32,617 INFO 39942 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908444,"size":940,"blocks":8,"atimeMs":1641827058143.497,"mtimeMs":1641827072556.6907,"ctimeMs":1641827072556.6907,"birthtimeMs":1641634987190.712,"atime":"2022-01-10T15:04:18.143Z","mtime":"2022-01-10T15:04:32.557Z","ctime":"2022-01-10T15:04:32.557Z","birthtime":"2022-01-08T09:43:07.191Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-10 23:04:32,617 INFO 39942 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/config/config.default.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-10 23:04:43,908 INFO 43396 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-10 23:04:43,914 INFO 43396 [egg:core] dump config after load, 3ms
+2022-01-10 23:04:43,945 INFO 43396 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-10 23:04:43,945 INFO 43396 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-10 23:04:43,945 INFO 43396 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-10 23:04:43,945 INFO 43396 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-10 23:04:43,945 INFO 43396 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-10 23:04:43,945 INFO 43396 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-10 23:04:43,945 INFO 43396 [egg-watcher:agent] watcher start success
+2022-01-10 23:04:43,956 INFO 43396 [egg:core] dump config after ready, 4ms
+2022-01-10 23:22:56,318 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 571974ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-10 23:33:03,020 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 564628ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-10 23:43:13,016 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569129ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-10 23:53:22,013 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 567364ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 00:03:29,135 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 567406ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+

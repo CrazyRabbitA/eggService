@@ -1,0 +1,42 @@
+2022-01-14 01:05:13,051 WARN 30700 [-/::1/-/22ms POST /api/v1/users/login] nodejs.UnprocessableEntityError: 用户不存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.login (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:35:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+message: "用户不存在"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 30700
+hostname: guchi.local
+
+2022-01-14 01:05:27,642 WARN 30700 [-/::1/-/2ms POST /api/v1/users/login] nodejs.UnprocessableEntityError: 用户不存在
+    at Object.throw (/Users/dasouche/Desktop/eggDemo/node_modules/koa/lib/context.js:97:11)
+    at UserController.login (/Users/dasouche/Desktop/eggDemo/app/controller/user.js:35:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dasouche/Desktop/eggDemo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dasouche/Desktop/eggDemo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dasouche/Desktop/eggDemo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/dasouche/Desktop/eggDemo/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dasouche/Desktop/eggDemo/node_modules/egg/app/middleware/meta.js:18:5)
+    at async cors (/Users/dasouche/Desktop/eggDemo/node_modules/@koa/cors/index.js:98:16)
+message: "用户不存在"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 30700
+hostname: guchi.local
+

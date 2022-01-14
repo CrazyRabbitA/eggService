@@ -1,0 +1,766 @@
+2022-01-08 18:00:25,457 INFO 87618 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:00:25,511 INFO 87618 [egg-multipart] stream mode enable
+2022-01-08 18:00:26,056 INFO 87618 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2022-01-08 18:00:26,175 INFO 87618 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:00:26,177 INFO 87618 [egg-security] use csrf middleware
+2022-01-08 18:00:26,178 INFO 87618 [egg-security] use methodnoallow middleware
+2022-01-08 18:00:26,179 INFO 87618 [egg-security] use noopen middleware
+2022-01-08 18:00:26,180 INFO 87618 [egg-security] use nosniff middleware
+2022-01-08 18:00:26,181 INFO 87618 [egg-security] use xssProtection middleware
+2022-01-08 18:00:26,182 INFO 87618 [egg-security] use xframe middleware
+2022-01-08 18:00:26,182 INFO 87618 [egg-security] use dta middleware
+2022-01-08 18:00:26,182 INFO 87618 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:00:26,191 INFO 87618 [egg:core] dump config after load, 5ms
+2022-01-08 18:00:26,194 INFO 87618 [egg-mongoose] starting...
+2022-01-08 18:00:26,204 ERROR 87618 [egg-mongoose] mongodb://127.0.0.1/example disconnected
+2022-01-08 18:00:26,206 ERROR 87618 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87618
+hostname: guchi.local
+
+2022-01-08 18:00:26,222 ERROR 87618 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87618
+hostname: guchi.local
+
+2022-01-08 18:00:26,237 INFO 87618 [egg:core] dump config after ready, 6ms
+2022-01-08 18:00:26,264 INFO 87618 [egg-watcher:application] watcher start success
+2022-01-08 18:00:49,312 INFO 87736 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:00:49,332 INFO 87736 [egg-multipart] stream mode enable
+2022-01-08 18:00:49,676 INFO 87736 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2022-01-08 18:00:49,768 INFO 87736 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:00:49,770 INFO 87736 [egg-security] use csrf middleware
+2022-01-08 18:00:49,771 INFO 87736 [egg-security] use methodnoallow middleware
+2022-01-08 18:00:49,772 INFO 87736 [egg-security] use noopen middleware
+2022-01-08 18:00:49,773 INFO 87736 [egg-security] use nosniff middleware
+2022-01-08 18:00:49,773 INFO 87736 [egg-security] use xssProtection middleware
+2022-01-08 18:00:49,774 INFO 87736 [egg-security] use xframe middleware
+2022-01-08 18:00:49,775 INFO 87736 [egg-security] use dta middleware
+2022-01-08 18:00:49,775 INFO 87736 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:00:49,789 INFO 87736 [egg:core] dump config after load, 10ms
+2022-01-08 18:00:49,792 INFO 87736 [egg-mongoose] starting...
+2022-01-08 18:00:49,800 ERROR 87736 [egg-mongoose] mongodb://127.0.0.1/example disconnected
+2022-01-08 18:00:49,802 ERROR 87736 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87736
+hostname: guchi.local
+
+2022-01-08 18:00:49,807 ERROR 87736 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87736
+hostname: guchi.local
+
+2022-01-08 18:00:49,818 INFO 87736 [egg:core] dump config after ready, 5ms
+2022-01-08 18:00:49,828 INFO 87736 [egg-watcher:application] watcher start success
+2022-01-08 18:02:00,862 INFO 87994 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:02:00,879 INFO 87994 [egg-multipart] stream mode enable
+2022-01-08 18:02:01,371 INFO 87994 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2022-01-08 18:02:01,489 INFO 87994 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:02:01,491 INFO 87994 [egg-security] use csrf middleware
+2022-01-08 18:02:01,492 INFO 87994 [egg-security] use methodnoallow middleware
+2022-01-08 18:02:01,493 INFO 87994 [egg-security] use noopen middleware
+2022-01-08 18:02:01,494 INFO 87994 [egg-security] use nosniff middleware
+2022-01-08 18:02:01,495 INFO 87994 [egg-security] use xssProtection middleware
+2022-01-08 18:02:01,496 INFO 87994 [egg-security] use xframe middleware
+2022-01-08 18:02:01,497 INFO 87994 [egg-security] use dta middleware
+2022-01-08 18:02:01,497 INFO 87994 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:02:01,506 INFO 87994 [egg:core] dump config after load, 4ms
+2022-01-08 18:02:01,509 INFO 87994 [egg-mongoose] starting...
+2022-01-08 18:02:01,516 ERROR 87994 [egg-mongoose] mongodb://127.0.0.1/example disconnected
+2022-01-08 18:02:01,518 ERROR 87994 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87994
+hostname: guchi.local
+
+2022-01-08 18:02:01,519 ERROR 87994 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87994
+hostname: guchi.local
+
+2022-01-08 18:02:01,526 INFO 87994 [egg:core] dump config after ready, 4ms
+2022-01-08 18:02:01,535 INFO 87994 [egg-watcher:application] watcher start success
+2022-01-08 18:02:14,640 INFO 88075 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:02:14,666 INFO 88075 [egg-multipart] stream mode enable
+2022-01-08 18:02:14,959 INFO 88075 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2022-01-08 18:02:15,044 INFO 88075 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:02:15,046 INFO 88075 [egg-security] use csrf middleware
+2022-01-08 18:02:15,047 INFO 88075 [egg-security] use methodnoallow middleware
+2022-01-08 18:02:15,048 INFO 88075 [egg-security] use noopen middleware
+2022-01-08 18:02:15,049 INFO 88075 [egg-security] use nosniff middleware
+2022-01-08 18:02:15,050 INFO 88075 [egg-security] use xssProtection middleware
+2022-01-08 18:02:15,051 INFO 88075 [egg-security] use xframe middleware
+2022-01-08 18:02:15,052 INFO 88075 [egg-security] use dta middleware
+2022-01-08 18:02:15,052 INFO 88075 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:02:15,066 INFO 88075 [egg:core] dump config after load, 9ms
+2022-01-08 18:02:15,069 INFO 88075 [egg-mongoose] starting...
+2022-01-08 18:02:15,080 ERROR 88075 [egg-mongoose] mongodb://127.0.0.1/example disconnected
+2022-01-08 18:02:15,081 ERROR 88075 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 88075
+hostname: guchi.local
+
+2022-01-08 18:02:15,087 ERROR 88075 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 88075
+hostname: guchi.local
+
+2022-01-08 18:02:15,131 INFO 88075 [egg:core] dump config after ready, 33ms
+2022-01-08 18:02:15,155 INFO 88075 [egg-watcher:application] watcher start success
+2022-01-08 18:03:44,494 INFO 88407 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:03:44,514 INFO 88407 [egg-multipart] stream mode enable
+2022-01-08 18:03:44,962 INFO 88407 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2022-01-08 18:03:45,098 INFO 88407 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:03:45,101 INFO 88407 [egg-security] use csrf middleware
+2022-01-08 18:03:45,102 INFO 88407 [egg-security] use methodnoallow middleware
+2022-01-08 18:03:45,103 INFO 88407 [egg-security] use noopen middleware
+2022-01-08 18:03:45,104 INFO 88407 [egg-security] use nosniff middleware
+2022-01-08 18:03:45,104 INFO 88407 [egg-security] use xssProtection middleware
+2022-01-08 18:03:45,105 INFO 88407 [egg-security] use xframe middleware
+2022-01-08 18:03:45,106 INFO 88407 [egg-security] use dta middleware
+2022-01-08 18:03:45,106 INFO 88407 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:03:45,117 INFO 88407 [egg:core] dump config after load, 8ms
+2022-01-08 18:03:45,119 INFO 88407 [egg-mongoose] starting...
+2022-01-08 18:03:45,132 INFO 88407 [egg-watcher:application] watcher start success
+2022-01-08 18:04:14,976 ERROR 88407 [egg-mongoose] mongodb://127.0.0.1/example disconnected
+2022-01-08 18:04:14,978 ERROR 88407 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 88407
+hostname: guchi.local
+
+2022-01-08 18:04:14,983 ERROR 88407 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 88407
+hostname: guchi.local
+
+2022-01-08 18:04:14,999 INFO 88407 [egg:core] dump config after ready, 7ms
+2022-01-08 18:15:36,427 INFO 90934 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:15:36,450 INFO 90934 [egg-multipart] stream mode enable
+2022-01-08 18:15:36,948 INFO 90934 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:15:37,050 INFO 90934 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:15:37,052 INFO 90934 [egg-security] use csrf middleware
+2022-01-08 18:15:37,054 INFO 90934 [egg-security] use methodnoallow middleware
+2022-01-08 18:15:37,055 INFO 90934 [egg-security] use noopen middleware
+2022-01-08 18:15:37,056 INFO 90934 [egg-security] use nosniff middleware
+2022-01-08 18:15:37,057 INFO 90934 [egg-security] use xssProtection middleware
+2022-01-08 18:15:37,058 INFO 90934 [egg-security] use xframe middleware
+2022-01-08 18:15:37,059 INFO 90934 [egg-security] use dta middleware
+2022-01-08 18:15:37,059 INFO 90934 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:15:37,070 INFO 90934 [egg:core] dump config after load, 6ms
+2022-01-08 18:15:37,072 INFO 90934 [egg-mongoose] starting...
+2022-01-08 18:15:37,090 INFO 90934 [egg-watcher:application] watcher start success
+2022-01-08 18:15:37,137 INFO 90934 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:15:37,137 INFO 90934 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:15:37,145 INFO 90934 [egg:core] dump config after ready, 4ms
+2022-01-08 18:26:29,025 INFO 93254 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:26:29,259 INFO 93254 [egg-multipart] stream mode enable
+2022-01-08 18:26:30,391 INFO 93254 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:26:30,787 INFO 93254 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:26:30,793 INFO 93254 [egg-security] use csrf middleware
+2022-01-08 18:26:30,798 INFO 93254 [egg-security] use methodnoallow middleware
+2022-01-08 18:26:30,801 INFO 93254 [egg-security] use noopen middleware
+2022-01-08 18:26:30,804 INFO 93254 [egg-security] use nosniff middleware
+2022-01-08 18:26:30,805 INFO 93254 [egg-security] use xssProtection middleware
+2022-01-08 18:26:30,807 INFO 93254 [egg-security] use xframe middleware
+2022-01-08 18:26:30,808 INFO 93254 [egg-security] use dta middleware
+2022-01-08 18:26:30,808 INFO 93254 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:26:30,837 INFO 93254 [egg:core] dump config after load, 24ms
+2022-01-08 18:26:30,839 INFO 93254 [egg-mongoose] starting...
+2022-01-08 18:26:30,853 INFO 93254 [egg-watcher:application] watcher start success
+2022-01-08 18:26:30,903 INFO 93254 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:26:30,904 INFO 93254 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:26:30,930 INFO 93254 [egg:core] dump config after ready, 17ms
+2022-01-08 18:27:56,447 INFO 93559 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:27:56,470 INFO 93559 [egg-multipart] stream mode enable
+2022-01-08 18:27:56,881 INFO 93559 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:27:57,002 INFO 93559 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:27:57,004 INFO 93559 [egg-security] use csrf middleware
+2022-01-08 18:27:57,005 INFO 93559 [egg-security] use methodnoallow middleware
+2022-01-08 18:27:57,005 INFO 93559 [egg-security] use noopen middleware
+2022-01-08 18:27:57,006 INFO 93559 [egg-security] use nosniff middleware
+2022-01-08 18:27:57,006 INFO 93559 [egg-security] use xssProtection middleware
+2022-01-08 18:27:57,007 INFO 93559 [egg-security] use xframe middleware
+2022-01-08 18:27:57,008 INFO 93559 [egg-security] use dta middleware
+2022-01-08 18:27:57,008 INFO 93559 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:27:57,018 INFO 93559 [egg:core] dump config after load, 7ms
+2022-01-08 18:27:57,020 INFO 93559 [egg-mongoose] starting...
+2022-01-08 18:27:57,034 INFO 93559 [egg-watcher:application] watcher start success
+2022-01-08 18:27:57,082 INFO 93559 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:27:57,083 INFO 93559 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:27:57,088 INFO 93559 [egg:core] dump config after ready, 4ms
+2022-01-08 18:30:04,398 INFO 93996 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:30:04,419 INFO 93996 [egg-multipart] stream mode enable
+2022-01-08 18:30:04,744 INFO 93996 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:30:04,885 INFO 93996 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:30:04,887 INFO 93996 [egg-security] use csrf middleware
+2022-01-08 18:30:04,888 INFO 93996 [egg-security] use methodnoallow middleware
+2022-01-08 18:30:04,889 INFO 93996 [egg-security] use noopen middleware
+2022-01-08 18:30:04,889 INFO 93996 [egg-security] use nosniff middleware
+2022-01-08 18:30:04,890 INFO 93996 [egg-security] use xssProtection middleware
+2022-01-08 18:30:04,893 INFO 93996 [egg-security] use xframe middleware
+2022-01-08 18:30:04,894 INFO 93996 [egg-security] use dta middleware
+2022-01-08 18:30:04,894 INFO 93996 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:30:04,912 INFO 93996 [egg:core] dump config after load, 15ms
+2022-01-08 18:30:04,914 INFO 93996 [egg-mongoose] starting...
+2022-01-08 18:30:04,930 INFO 93996 [egg-watcher:application] watcher start success
+2022-01-08 18:30:04,972 INFO 93996 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:30:04,973 INFO 93996 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:30:04,979 INFO 93996 [egg:core] dump config after ready, 4ms
+2022-01-08 18:30:42,719 INFO 94141 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:30:42,745 INFO 94141 [egg-multipart] stream mode enable
+2022-01-08 18:30:43,155 INFO 94141 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:30:43,269 INFO 94141 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:30:43,271 INFO 94141 [egg-security] use csrf middleware
+2022-01-08 18:30:43,272 INFO 94141 [egg-security] use methodnoallow middleware
+2022-01-08 18:30:43,275 INFO 94141 [egg-security] use noopen middleware
+2022-01-08 18:30:43,275 INFO 94141 [egg-security] use nosniff middleware
+2022-01-08 18:30:43,276 INFO 94141 [egg-security] use xssProtection middleware
+2022-01-08 18:30:43,277 INFO 94141 [egg-security] use xframe middleware
+2022-01-08 18:30:43,279 INFO 94141 [egg-security] use dta middleware
+2022-01-08 18:30:43,279 INFO 94141 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:30:43,294 INFO 94141 [egg:core] dump config after load, 12ms
+2022-01-08 18:30:43,296 INFO 94141 [egg-mongoose] starting...
+2022-01-08 18:30:43,320 INFO 94141 [egg-watcher:application] watcher start success
+2022-01-08 18:30:43,393 INFO 94141 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:30:43,394 INFO 94141 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:30:43,407 INFO 94141 [egg:core] dump config after ready, 11ms
+2022-01-08 18:30:58,184 INFO 94200 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:30:58,202 INFO 94200 [egg-multipart] stream mode enable
+2022-01-08 18:30:58,441 INFO 94200 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:30:58,505 INFO 94200 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:30:58,507 INFO 94200 [egg-security] use csrf middleware
+2022-01-08 18:30:58,508 INFO 94200 [egg-security] use methodnoallow middleware
+2022-01-08 18:30:58,508 INFO 94200 [egg-security] use noopen middleware
+2022-01-08 18:30:58,509 INFO 94200 [egg-security] use nosniff middleware
+2022-01-08 18:30:58,509 INFO 94200 [egg-security] use xssProtection middleware
+2022-01-08 18:30:58,509 INFO 94200 [egg-security] use xframe middleware
+2022-01-08 18:30:58,510 INFO 94200 [egg-security] use dta middleware
+2022-01-08 18:30:58,510 INFO 94200 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:30:58,520 INFO 94200 [egg:core] dump config after load, 7ms
+2022-01-08 18:30:58,522 INFO 94200 [egg-mongoose] starting...
+2022-01-08 18:30:58,536 INFO 94200 [egg-watcher:application] watcher start success
+2022-01-08 18:30:58,579 INFO 94200 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:30:58,580 INFO 94200 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:30:58,587 INFO 94200 [egg:core] dump config after ready, 4ms
+2022-01-08 18:31:24,220 INFO 94287 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:31:24,241 INFO 94287 [egg-multipart] stream mode enable
+2022-01-08 18:31:24,658 INFO 94287 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:31:24,721 INFO 94287 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:31:24,723 INFO 94287 [egg-security] use csrf middleware
+2022-01-08 18:31:24,723 INFO 94287 [egg-security] use methodnoallow middleware
+2022-01-08 18:31:24,723 INFO 94287 [egg-security] use noopen middleware
+2022-01-08 18:31:24,724 INFO 94287 [egg-security] use nosniff middleware
+2022-01-08 18:31:24,724 INFO 94287 [egg-security] use xssProtection middleware
+2022-01-08 18:31:24,724 INFO 94287 [egg-security] use xframe middleware
+2022-01-08 18:31:24,725 INFO 94287 [egg-security] use dta middleware
+2022-01-08 18:31:24,725 INFO 94287 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:31:24,737 INFO 94287 [egg:core] dump config after load, 9ms
+2022-01-08 18:31:24,738 INFO 94287 [egg-mongoose] starting...
+2022-01-08 18:31:24,753 INFO 94287 [egg-watcher:application] watcher start success
+2022-01-08 18:31:24,792 INFO 94287 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:31:24,793 INFO 94287 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:31:24,798 INFO 94287 [egg:core] dump config after ready, 4ms
+2022-01-08 18:31:32,297 INFO 94320 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:31:32,316 INFO 94320 [egg-multipart] stream mode enable
+2022-01-08 18:31:32,533 INFO 94320 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:31:32,603 INFO 94320 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:31:32,605 INFO 94320 [egg-security] use csrf middleware
+2022-01-08 18:31:32,605 INFO 94320 [egg-security] use methodnoallow middleware
+2022-01-08 18:31:32,606 INFO 94320 [egg-security] use noopen middleware
+2022-01-08 18:31:32,606 INFO 94320 [egg-security] use nosniff middleware
+2022-01-08 18:31:32,606 INFO 94320 [egg-security] use xssProtection middleware
+2022-01-08 18:31:32,607 INFO 94320 [egg-security] use xframe middleware
+2022-01-08 18:31:32,607 INFO 94320 [egg-security] use dta middleware
+2022-01-08 18:31:32,607 INFO 94320 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:31:32,618 INFO 94320 [egg:core] dump config after load, 3ms
+2022-01-08 18:31:32,620 INFO 94320 [egg-mongoose] starting...
+2022-01-08 18:31:32,634 INFO 94320 [egg-watcher:application] watcher start success
+2022-01-08 18:31:32,702 INFO 94320 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:31:32,703 INFO 94320 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:31:32,711 INFO 94320 [egg:core] dump config after ready, 6ms
+2022-01-08 18:32:26,947 INFO 94531 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-08 18:32:26,969 INFO 94531 [egg-multipart] stream mode enable
+2022-01-08 18:32:27,311 INFO 94531 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-08 18:32:27,422 INFO 94531 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-08 18:32:27,425 INFO 94531 [egg-security] use csrf middleware
+2022-01-08 18:32:27,427 INFO 94531 [egg-security] use methodnoallow middleware
+2022-01-08 18:32:27,427 INFO 94531 [egg-security] use noopen middleware
+2022-01-08 18:32:27,428 INFO 94531 [egg-security] use nosniff middleware
+2022-01-08 18:32:27,429 INFO 94531 [egg-security] use xssProtection middleware
+2022-01-08 18:32:27,429 INFO 94531 [egg-security] use xframe middleware
+2022-01-08 18:32:27,430 INFO 94531 [egg-security] use dta middleware
+2022-01-08 18:32:27,430 INFO 94531 [egg-security] compose 7 middlewares into one security middleware
+2022-01-08 18:32:27,455 INFO 94531 [egg:core] dump config after load, 16ms
+2022-01-08 18:32:27,458 INFO 94531 [egg-mongoose] starting...
+2022-01-08 18:32:27,481 INFO 94531 [egg-watcher:application] watcher start success
+2022-01-08 18:32:27,535 INFO 94531 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-08 18:32:27,537 INFO 94531 [egg-mongoose] instance[0] start successfully
+2022-01-08 18:32:27,545 INFO 94531 [egg:core] dump config after ready, 7ms
+2022-01-10 22:07:12,120 INFO 26835 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:07:12,138 INFO 26835 [egg-multipart] stream mode enable
+2022-01-10 22:07:12,634 INFO 26835 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:07:12,756 INFO 26835 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:07:12,760 INFO 26835 [egg-security] use csrf middleware
+2022-01-10 22:07:12,762 INFO 26835 [egg-security] use methodnoallow middleware
+2022-01-10 22:07:12,762 INFO 26835 [egg-security] use noopen middleware
+2022-01-10 22:07:12,763 INFO 26835 [egg-security] use nosniff middleware
+2022-01-10 22:07:12,764 INFO 26835 [egg-security] use xssProtection middleware
+2022-01-10 22:07:12,765 INFO 26835 [egg-security] use xframe middleware
+2022-01-10 22:07:12,766 INFO 26835 [egg-security] use dta middleware
+2022-01-10 22:07:12,766 INFO 26835 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:07:12,783 INFO 26835 [egg:core] dump config after load, 13ms
+2022-01-10 22:07:12,785 INFO 26835 [egg-mongoose] starting...
+2022-01-10 22:07:12,806 INFO 26835 [egg-watcher:application] watcher start success
+2022-01-10 22:07:12,846 INFO 26835 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:07:12,847 INFO 26835 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:07:12,854 INFO 26835 [egg:core] dump config after ready, 5ms
+2022-01-10 22:38:19,766 INFO 35554 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:38:19,795 INFO 35554 [egg-multipart] stream mode enable
+2022-01-10 22:38:20,360 INFO 35554 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:38:20,522 INFO 35554 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:38:20,524 INFO 35554 [egg-security] use csrf middleware
+2022-01-10 22:38:20,526 INFO 35554 [egg-security] use methodnoallow middleware
+2022-01-10 22:38:20,527 INFO 35554 [egg-security] use noopen middleware
+2022-01-10 22:38:20,528 INFO 35554 [egg-security] use nosniff middleware
+2022-01-10 22:38:20,528 INFO 35554 [egg-security] use xssProtection middleware
+2022-01-10 22:38:20,529 INFO 35554 [egg-security] use xframe middleware
+2022-01-10 22:38:20,530 INFO 35554 [egg-security] use dta middleware
+2022-01-10 22:38:20,530 INFO 35554 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:38:20,546 INFO 35554 [egg:core] dump config after load, 10ms
+2022-01-10 22:38:20,548 INFO 35554 [egg-mongoose] starting...
+2022-01-10 22:38:20,571 INFO 35554 [egg-watcher:application] watcher start success
+2022-01-10 22:38:20,614 INFO 35554 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:38:20,615 INFO 35554 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:38:20,622 INFO 35554 [egg:core] dump config after ready, 6ms
+2022-01-10 22:38:35,407 INFO 35618 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:38:35,487 INFO 35618 [egg-multipart] stream mode enable
+2022-01-10 22:38:37,911 INFO 35618 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:38:38,651 INFO 35618 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:38:38,656 INFO 35618 [egg-security] use csrf middleware
+2022-01-10 22:38:38,660 INFO 35618 [egg-security] use methodnoallow middleware
+2022-01-10 22:38:38,660 INFO 35618 [egg-security] use noopen middleware
+2022-01-10 22:38:38,668 INFO 35618 [egg-security] use nosniff middleware
+2022-01-10 22:38:38,670 INFO 35618 [egg-security] use xssProtection middleware
+2022-01-10 22:38:38,675 INFO 35618 [egg-security] use xframe middleware
+2022-01-10 22:38:38,676 INFO 35618 [egg-security] use dta middleware
+2022-01-10 22:38:38,676 INFO 35618 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:38:38,812 INFO 35618 [egg:core] dump config after load, 105ms
+2022-01-10 22:38:38,817 INFO 35618 [egg-mongoose] starting...
+2022-01-10 22:38:38,912 INFO 35618 [egg-watcher:application] watcher start success
+2022-01-10 22:38:39,016 INFO 35618 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:38:39,059 INFO 35618 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:38:39,107 INFO 35618 [egg:core] dump config after ready, 8ms
+2022-01-10 22:38:41,949 INFO 35650 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:38:41,973 INFO 35650 [egg-multipart] stream mode enable
+2022-01-10 22:38:42,420 INFO 35650 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:38:42,533 INFO 35650 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:38:42,540 INFO 35650 [egg-security] use csrf middleware
+2022-01-10 22:38:42,541 INFO 35650 [egg-security] use methodnoallow middleware
+2022-01-10 22:38:42,541 INFO 35650 [egg-security] use noopen middleware
+2022-01-10 22:38:42,542 INFO 35650 [egg-security] use nosniff middleware
+2022-01-10 22:38:42,542 INFO 35650 [egg-security] use xssProtection middleware
+2022-01-10 22:38:42,542 INFO 35650 [egg-security] use xframe middleware
+2022-01-10 22:38:42,543 INFO 35650 [egg-security] use dta middleware
+2022-01-10 22:38:42,543 INFO 35650 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:38:42,558 INFO 35650 [egg:core] dump config after load, 10ms
+2022-01-10 22:38:42,560 INFO 35650 [egg-mongoose] starting...
+2022-01-10 22:38:42,624 INFO 35650 [egg-watcher:application] watcher start success
+2022-01-10 22:38:42,687 INFO 35650 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:38:42,691 INFO 35650 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:38:42,732 INFO 35650 [egg:core] dump config after ready, 34ms
+2022-01-10 22:38:54,642 INFO 35711 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:38:54,664 INFO 35711 [egg-multipart] stream mode enable
+2022-01-10 22:38:54,986 INFO 35711 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:38:55,136 INFO 35711 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:38:55,138 INFO 35711 [egg-security] use csrf middleware
+2022-01-10 22:38:55,139 INFO 35711 [egg-security] use methodnoallow middleware
+2022-01-10 22:38:55,140 INFO 35711 [egg-security] use noopen middleware
+2022-01-10 22:38:55,141 INFO 35711 [egg-security] use nosniff middleware
+2022-01-10 22:38:55,142 INFO 35711 [egg-security] use xssProtection middleware
+2022-01-10 22:38:55,143 INFO 35711 [egg-security] use xframe middleware
+2022-01-10 22:38:55,144 INFO 35711 [egg-security] use dta middleware
+2022-01-10 22:38:55,144 INFO 35711 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:38:55,155 INFO 35711 [egg:core] dump config after load, 4ms
+2022-01-10 22:38:55,157 INFO 35711 [egg-mongoose] starting...
+2022-01-10 22:38:55,172 INFO 35711 [egg-watcher:application] watcher start success
+2022-01-10 22:38:55,260 INFO 35711 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:38:55,261 INFO 35711 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:38:55,269 INFO 35711 [egg:core] dump config after ready, 5ms
+2022-01-10 22:39:24,077 INFO 35837 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:39:24,102 INFO 35837 [egg-multipart] stream mode enable
+2022-01-10 22:39:24,607 INFO 35837 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:39:24,768 INFO 35837 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:39:24,771 INFO 35837 [egg-security] use csrf middleware
+2022-01-10 22:39:24,772 INFO 35837 [egg-security] use methodnoallow middleware
+2022-01-10 22:39:24,773 INFO 35837 [egg-security] use noopen middleware
+2022-01-10 22:39:24,774 INFO 35837 [egg-security] use nosniff middleware
+2022-01-10 22:39:24,777 INFO 35837 [egg-security] use xssProtection middleware
+2022-01-10 22:39:24,778 INFO 35837 [egg-security] use xframe middleware
+2022-01-10 22:39:24,779 INFO 35837 [egg-security] use dta middleware
+2022-01-10 22:39:24,779 INFO 35837 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:39:24,793 INFO 35837 [egg:core] dump config after load, 8ms
+2022-01-10 22:39:24,795 INFO 35837 [egg-mongoose] starting...
+2022-01-10 22:39:24,809 INFO 35837 [egg-watcher:application] watcher start success
+2022-01-10 22:39:24,899 INFO 35837 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:39:24,900 INFO 35837 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:39:24,907 INFO 35837 [egg:core] dump config after ready, 5ms
+2022-01-10 22:39:34,420 INFO 35881 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:39:34,444 INFO 35881 [egg-multipart] stream mode enable
+2022-01-10 22:39:34,921 INFO 35881 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:39:35,093 INFO 35881 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:39:35,095 INFO 35881 [egg-security] use csrf middleware
+2022-01-10 22:39:35,096 INFO 35881 [egg-security] use methodnoallow middleware
+2022-01-10 22:39:35,097 INFO 35881 [egg-security] use noopen middleware
+2022-01-10 22:39:35,099 INFO 35881 [egg-security] use nosniff middleware
+2022-01-10 22:39:35,100 INFO 35881 [egg-security] use xssProtection middleware
+2022-01-10 22:39:35,101 INFO 35881 [egg-security] use xframe middleware
+2022-01-10 22:39:35,102 INFO 35881 [egg-security] use dta middleware
+2022-01-10 22:39:35,102 INFO 35881 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:39:35,112 INFO 35881 [egg:core] dump config after load, 3ms
+2022-01-10 22:39:35,114 INFO 35881 [egg-mongoose] starting...
+2022-01-10 22:39:35,129 INFO 35881 [egg-watcher:application] watcher start success
+2022-01-10 22:39:35,170 INFO 35881 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:39:35,171 INFO 35881 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:39:35,179 INFO 35881 [egg:core] dump config after ready, 5ms
+2022-01-10 22:39:51,698 INFO 35961 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:39:51,722 INFO 35961 [egg-multipart] stream mode enable
+2022-01-10 22:39:52,264 INFO 35961 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:39:52,429 INFO 35961 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:39:52,432 INFO 35961 [egg-security] use csrf middleware
+2022-01-10 22:39:52,433 INFO 35961 [egg-security] use methodnoallow middleware
+2022-01-10 22:39:52,433 INFO 35961 [egg-security] use noopen middleware
+2022-01-10 22:39:52,434 INFO 35961 [egg-security] use nosniff middleware
+2022-01-10 22:39:52,435 INFO 35961 [egg-security] use xssProtection middleware
+2022-01-10 22:39:52,436 INFO 35961 [egg-security] use xframe middleware
+2022-01-10 22:39:52,437 INFO 35961 [egg-security] use dta middleware
+2022-01-10 22:39:52,437 INFO 35961 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:39:52,453 INFO 35961 [egg:core] dump config after load, 6ms
+2022-01-10 22:39:52,455 INFO 35961 [egg-mongoose] starting...
+2022-01-10 22:39:52,485 INFO 35961 [egg-watcher:application] watcher start success
+2022-01-10 22:39:52,541 INFO 35961 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:39:52,542 INFO 35961 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:39:52,548 INFO 35961 [egg:core] dump config after ready, 4ms
+2022-01-10 22:50:56,237 INFO 39759 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:50:56,262 INFO 39759 [egg-multipart] stream mode enable
+2022-01-10 22:50:57,022 INFO 39759 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:50:57,171 INFO 39759 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:50:57,174 INFO 39759 [egg-security] use csrf middleware
+2022-01-10 22:50:57,175 INFO 39759 [egg-security] use methodnoallow middleware
+2022-01-10 22:50:57,176 INFO 39759 [egg-security] use noopen middleware
+2022-01-10 22:50:57,177 INFO 39759 [egg-security] use nosniff middleware
+2022-01-10 22:50:57,178 INFO 39759 [egg-security] use xssProtection middleware
+2022-01-10 22:50:57,179 INFO 39759 [egg-security] use xframe middleware
+2022-01-10 22:50:57,181 INFO 39759 [egg-security] use dta middleware
+2022-01-10 22:50:57,181 INFO 39759 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:50:57,196 INFO 39759 [egg:core] dump config after load, 9ms
+2022-01-10 22:50:57,198 INFO 39759 [egg-mongoose] starting...
+2022-01-10 22:50:57,215 INFO 39759 [egg-watcher:application] watcher start success
+2022-01-10 22:50:57,490 INFO 39759 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:50:57,491 INFO 39759 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:50:57,502 INFO 39759 [egg:core] dump config after ready, 9ms
+2022-01-10 22:51:05,062 INFO 39793 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:51:05,380 INFO 39793 [egg-multipart] stream mode enable
+2022-01-10 22:51:06,754 INFO 39793 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:51:07,336 INFO 39793 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:51:07,355 INFO 39793 [egg-security] use csrf middleware
+2022-01-10 22:51:07,357 INFO 39793 [egg-security] use methodnoallow middleware
+2022-01-10 22:51:07,359 INFO 39793 [egg-security] use noopen middleware
+2022-01-10 22:51:07,362 INFO 39793 [egg-security] use nosniff middleware
+2022-01-10 22:51:07,370 INFO 39793 [egg-security] use xssProtection middleware
+2022-01-10 22:51:07,377 INFO 39793 [egg-security] use xframe middleware
+2022-01-10 22:51:07,379 INFO 39793 [egg-security] use dta middleware
+2022-01-10 22:51:07,379 INFO 39793 [egg-security] compose 7 middlewares into one security middleware
+2022-01-10 22:51:07,443 INFO 39793 [egg:core] dump config after load, 14ms
+2022-01-10 22:51:07,445 INFO 39793 [egg-mongoose] starting...
+2022-01-10 22:51:07,475 INFO 39793 [egg-watcher:application] watcher start success
+2022-01-10 22:51:07,522 INFO 39793 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:51:07,532 INFO 39793 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:51:07,596 INFO 39793 [egg:core] dump config after ready, 55ms
+2022-01-10 22:51:29,256 INFO 39901 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:51:29,363 INFO 39901 [egg-multipart] stream mode enable
+2022-01-10 22:51:29,792 INFO 39901 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:51:29,920 INFO 39901 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:51:29,923 INFO 39901 [egg-security] use methodnoallow middleware
+2022-01-10 22:51:29,923 INFO 39901 [egg-security] use noopen middleware
+2022-01-10 22:51:29,924 INFO 39901 [egg-security] use nosniff middleware
+2022-01-10 22:51:29,925 INFO 39901 [egg-security] use xssProtection middleware
+2022-01-10 22:51:29,926 INFO 39901 [egg-security] use xframe middleware
+2022-01-10 22:51:29,927 INFO 39901 [egg-security] use dta middleware
+2022-01-10 22:51:29,927 INFO 39901 [egg-security] compose 6 middlewares into one security middleware
+2022-01-10 22:51:29,941 INFO 39901 [egg:core] dump config after load, 7ms
+2022-01-10 22:51:29,943 INFO 39901 [egg-mongoose] starting...
+2022-01-10 22:51:29,959 INFO 39901 [egg-watcher:application] watcher start success
+2022-01-10 22:51:30,012 INFO 39901 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:51:30,013 INFO 39901 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:51:30,021 INFO 39901 [egg:core] dump config after ready, 5ms
+2022-01-10 22:51:37,051 INFO 39958 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 22:51:37,067 INFO 39958 [egg-multipart] stream mode enable
+2022-01-10 22:51:37,286 INFO 39958 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 22:51:37,360 INFO 39958 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 22:51:37,362 INFO 39958 [egg-security] use methodnoallow middleware
+2022-01-10 22:51:37,363 INFO 39958 [egg-security] use noopen middleware
+2022-01-10 22:51:37,364 INFO 39958 [egg-security] use nosniff middleware
+2022-01-10 22:51:37,364 INFO 39958 [egg-security] use xssProtection middleware
+2022-01-10 22:51:37,364 INFO 39958 [egg-security] use xframe middleware
+2022-01-10 22:51:37,365 INFO 39958 [egg-security] use dta middleware
+2022-01-10 22:51:37,365 INFO 39958 [egg-security] compose 6 middlewares into one security middleware
+2022-01-10 22:51:37,378 INFO 39958 [egg:core] dump config after load, 10ms
+2022-01-10 22:51:37,380 INFO 39958 [egg-mongoose] starting...
+2022-01-10 22:51:37,401 INFO 39958 [egg-watcher:application] watcher start success
+2022-01-10 22:51:37,446 INFO 39958 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 22:51:37,447 INFO 39958 [egg-mongoose] instance[0] start successfully
+2022-01-10 22:51:37,454 INFO 39958 [egg:core] dump config after ready, 5ms
+2022-01-10 23:04:18,178 INFO 43250 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 23:04:18,203 INFO 43250 [egg-multipart] stream mode enable
+2022-01-10 23:04:18,543 INFO 43250 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 23:04:18,682 INFO 43250 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 23:04:18,685 INFO 43250 [egg-security] use methodnoallow middleware
+2022-01-10 23:04:18,686 INFO 43250 [egg-security] use noopen middleware
+2022-01-10 23:04:18,687 INFO 43250 [egg-security] use nosniff middleware
+2022-01-10 23:04:18,689 INFO 43250 [egg-security] use xssProtection middleware
+2022-01-10 23:04:18,690 INFO 43250 [egg-security] use xframe middleware
+2022-01-10 23:04:18,692 INFO 43250 [egg-security] use dta middleware
+2022-01-10 23:04:18,692 INFO 43250 [egg-security] compose 6 middlewares into one security middleware
+2022-01-10 23:04:18,708 INFO 43250 [egg:core] dump config after load, 9ms
+2022-01-10 23:04:18,710 INFO 43250 [egg-mongoose] starting...
+2022-01-10 23:04:18,726 INFO 43250 [egg-watcher:application] watcher start success
+2022-01-10 23:04:18,765 INFO 43250 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 23:04:18,767 INFO 43250 [egg-mongoose] instance[0] start successfully
+2022-01-10 23:04:18,774 INFO 43250 [egg:core] dump config after ready, 5ms
+2022-01-10 23:04:33,958 INFO 43335 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 23:04:34,056 INFO 43335 [egg-multipart] stream mode enable
+2022-01-10 23:04:34,761 INFO 43335 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 23:04:35,088 INFO 43335 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 23:04:35,090 INFO 43335 [egg-security] use methodnoallow middleware
+2022-01-10 23:04:35,091 INFO 43335 [egg-security] use noopen middleware
+2022-01-10 23:04:35,093 INFO 43335 [egg-security] use nosniff middleware
+2022-01-10 23:04:35,096 INFO 43335 [egg-security] use xssProtection middleware
+2022-01-10 23:04:35,100 INFO 43335 [egg-security] use xframe middleware
+2022-01-10 23:04:35,100 INFO 43335 [egg-security] use dta middleware
+2022-01-10 23:04:35,101 INFO 43335 [egg-security] compose 6 middlewares into one security middleware
+2022-01-10 23:04:35,120 INFO 43335 [egg:core] dump config after load, 11ms
+2022-01-10 23:04:35,126 INFO 43335 [egg-mongoose] starting...
+2022-01-10 23:04:35,267 INFO 43335 [egg-watcher:application] watcher start success
+2022-01-10 23:04:35,290 INFO 43335 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 23:04:35,292 INFO 43335 [egg-mongoose] instance[0] start successfully
+2022-01-10 23:04:35,301 INFO 43335 [egg:core] dump config after ready, 6ms
+2022-01-10 23:04:44,723 INFO 43403 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-10 23:04:44,743 INFO 43403 [egg-multipart] stream mode enable
+2022-01-10 23:04:45,099 INFO 43403 [egg-mongoose] connecting mongodb://81.68.244.201/example
+2022-01-10 23:04:45,197 INFO 43403 [egg-static] starting static serve /public/ -> /Users/dasouche/Desktop/eggDemo/app/public
+2022-01-10 23:04:45,199 INFO 43403 [egg-security] use methodnoallow middleware
+2022-01-10 23:04:45,201 INFO 43403 [egg-security] use noopen middleware
+2022-01-10 23:04:45,202 INFO 43403 [egg-security] use nosniff middleware
+2022-01-10 23:04:45,203 INFO 43403 [egg-security] use xssProtection middleware
+2022-01-10 23:04:45,204 INFO 43403 [egg-security] use xframe middleware
+2022-01-10 23:04:45,205 INFO 43403 [egg-security] use dta middleware
+2022-01-10 23:04:45,205 INFO 43403 [egg-security] compose 6 middlewares into one security middleware
+2022-01-10 23:04:45,218 INFO 43403 [egg:core] dump config after load, 3ms
+2022-01-10 23:04:45,220 INFO 43403 [egg-mongoose] starting...
+2022-01-10 23:04:45,236 INFO 43403 [egg-watcher:application] watcher start success
+2022-01-10 23:04:45,287 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 23:04:45,289 INFO 43403 [egg-mongoose] instance[0] start successfully
+2022-01-10 23:04:45,296 INFO 43403 [egg:core] dump config after ready, 5ms
+2022-01-10 23:22:56,317 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-10 23:22:56,324 WARN 43403 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-10 23:22:56,343 WARN 43403 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-10 23:23:08,304 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 23:23:08,305 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example reconnected successfully
+2022-01-10 23:33:03,009 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-10 23:33:03,009 WARN 43403 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-10 23:33:03,009 WARN 43403 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-10 23:33:13,883 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 23:33:13,883 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example reconnected successfully
+2022-01-10 23:43:13,009 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-10 23:43:13,009 WARN 43403 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-10 23:43:13,009 WARN 43403 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-10 23:43:24,679 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 23:43:24,679 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example reconnected successfully
+2022-01-10 23:53:22,008 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-10 23:53:22,008 WARN 43403 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-10 23:53:22,008 WARN 43403 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-10 23:53:31,640 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example connected successfully
+2022-01-10 23:53:31,640 INFO 43403 [egg-mongoose] mongodb://81.68.244.201/example reconnected successfully
+2022-01-11 00:03:29,013 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 00:03:29,013 WARN 43403 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-11 00:03:29,013 WARN 43403 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-11 00:03:29,158 INFO 43403 [egg-logrotator] clean all log before 31 days
+2022-01-11 00:03:29,161 INFO 43403 [egg-logrotator] broadcast log-reload
+2022-01-11 00:03:29,162 INFO 43403 [egg-logrotator] rotate files success by DayRotator, files ["/Users/dasouche/Desktop/eggDemo/logs/eggDemo/common-error.log -> /Users/dasouche/Desktop/eggDemo/logs/eggDemo/common-error.log.2022-01-10","/Users/dasouche/Desktop/eggDemo/logs/eggDemo/eggDemo-web.log -> /Users/dasouche/Desktop/eggDemo/logs/eggDemo/eggDemo-web.log.2022-01-10","/Users/dasouche/Desktop/eggDemo/logs/eggDemo/egg-web.log -> /Users/dasouche/Desktop/eggDemo/logs/eggDemo/egg-web.log.2022-01-10","/Users/dasouche/Desktop/eggDemo/logs/eggDemo/egg-schedule.log -> /Users/dasouche/Desktop/eggDemo/logs/eggDemo/egg-schedule.log.2022-01-10","/Users/dasouche/Desktop/eggDemo/logs/eggDemo/egg-agent.log -> /Users/dasouche/Desktop/eggDemo/logs/eggDemo/egg-agent.log.2022-01-10"]

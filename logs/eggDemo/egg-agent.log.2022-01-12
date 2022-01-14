@@ -1,0 +1,763 @@
+2022-01-12 00:06:13,107 INFO 89138 [egg-logrotator] agent logger reload: got log-reload message
+2022-01-12 00:16:24,560 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 569625ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 00:26:36,543 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571027ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 00:36:50,554 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570821ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 00:47:02,659 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 573491ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 00:57:15,868 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570380ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 01:07:27,679 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570880ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 01:17:39,521 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570871ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 01:27:52,671 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 01:38:04,464 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571361ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 01:48:16,533 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571730ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 01:58:27,610 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 569876ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 02:08:40,615 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 02:18:54,519 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 02:29:04,559 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572055ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 02:39:18,423 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570626ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 02:49:29,610 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 02:59:41,459 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 569747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 03:09:53,670 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 03:20:04,708 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 569826ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 03:30:17,571 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571388ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 03:40:29,490 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570725ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 03:50:40,508 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 04:00:53,610 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571572ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 04:11:06,526 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 04:21:17,426 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 04:31:28,087 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570053ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 04:41:40,533 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570833ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 04:51:52,464 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 05:01:59,571 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 05:12:16,660 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 05:22:29,330 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571520ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 05:32:41,524 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571463ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 05:42:51,519 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 05:53:05,543 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 06:03:16,570 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570275ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 06:13:30,446 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572724ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 06:23:40,605 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 06:33:52,560 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570833ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 06:43:48,661 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 576265ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 06:54:02,680 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571496ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 07:04:14,453 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570927ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 07:14:27,499 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572096ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 07:24:35,442 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570291ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 07:34:52,423 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571938ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 07:45:03,809 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 07:55:14,541 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570384ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 08:05:27,531 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 571862ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 08:15:39,547 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572296ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 08:25:50,380 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 08:36:03,685 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 570340ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 08:38:16,533 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 111896ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 08:47:40,073 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 563295ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 08:57:46,011 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 566176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 09:07:53,066 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 565456ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 09:18:01,015 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 566161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 09:28:08,012 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 565396ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 09:36:48,066 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 479072ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 09:49:01,019 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 732940ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 09:58:26,024 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 126528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 10:32:42,551 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 96101ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 11:59:21,083 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 1215164ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 12:16:05,073 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 943903ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 13:12:52,109 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 265723ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 13:21:40,107 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 247198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 15:16:31,388 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 129818ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 18:36:20,318 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 1207642ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 18:48:55,011 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 308989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 18:53:56,064 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 300939ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 19:00:33,065 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 296929ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 19:05:34,010 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 300938ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 19:12:11,067 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 297048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 19:17:12,010 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 300937ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 19:23:49,065 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 296981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 19:26:50,027 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 180944ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 19:27:45,304 INFO 28577 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-12 19:27:45,310 INFO 28577 [egg:core] dump config after load, 3ms
+2022-01-12 19:27:45,349 INFO 28577 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-12 19:27:45,349 INFO 28577 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-12 19:27:45,349 INFO 28577 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-12 19:27:45,349 INFO 28577 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-12 19:27:45,349 INFO 28577 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-12 19:27:45,349 INFO 28577 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-12 19:27:45,349 INFO 28577 [egg-watcher:agent] watcher start success
+2022-01-12 19:27:45,365 INFO 28577 [egg:core] dump config after ready, 3ms
+2022-01-12 19:34:40,769 WARN 28577 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/service/user.js change
+2022-01-12 19:34:40,561 INFO 28577 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/service/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 19:34:40,566 INFO 28577 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/service/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18308149,"size":578,"blocks":8,"atimeMs":1641904820990.2383,"mtimeMs":1641987280495.3494,"ctimeMs":1641987280495.3494,"birthtimeMs":1641891268631.7588,"atime":"2022-01-11T12:40:20.990Z","mtime":"2022-01-12T11:34:40.495Z","ctime":"2022-01-12T11:34:40.495Z","birthtime":"2022-01-11T08:54:28.632Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 19:34:54,629 INFO 30213 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-12 19:34:54,916 INFO 30213 [egg:core] dump config after load, 281ms
+2022-01-12 19:34:55,006 INFO 30213 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-12 19:34:55,006 INFO 30213 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-12 19:34:55,007 INFO 30213 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-12 19:34:55,007 INFO 30213 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-12 19:34:55,007 INFO 30213 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-12 19:34:55,007 INFO 30213 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-12 19:34:55,007 INFO 30213 [egg-watcher:agent] watcher start success
+2022-01-12 19:34:55,043 INFO 30213 [egg:core] dump config after ready, 22ms
+2022-01-12 19:35:38,605 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/service/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18308149,"size":595,"blocks":8,"atimeMs":1641987281858.5256,"mtimeMs":1641987338543.7603,"ctimeMs":1641987338543.7603,"birthtimeMs":1641891268631.7588,"atime":"2022-01-12T11:34:41.859Z","mtime":"2022-01-12T11:35:38.544Z","ctime":"2022-01-12T11:35:38.544Z","birthtime":"2022-01-11T08:54:28.632Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 19:35:38,607 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/service/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 19:35:38,807 WARN 30213 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/service/user.js~ rename
+2022-01-12 19:43:17,417 WARN 30213 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 19:43:17,212 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 19:43:17,214 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":716,"blocks":8,"atimeMs":1641904743663.3877,"mtimeMs":1641987797158.0374,"ctimeMs":1641987797158.0374,"birthtimeMs":1641823345693.6978,"atime":"2022-01-11T12:39:03.663Z","mtime":"2022-01-12T11:43:17.158Z","ctime":"2022-01-12T11:43:17.158Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 19:54:52,547 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":750,"blocks":8,"atimeMs":1641987798237.4636,"mtimeMs":1641988492486.504,"ctimeMs":1641988492486.504,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T11:43:18.237Z","mtime":"2022-01-12T11:54:52.487Z","ctime":"2022-01-12T11:54:52.487Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 19:54:52,549 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 19:54:52,749 WARN 30213 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 19:54:55,255 WARN 30213 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 19:54:55,055 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 19:54:55,055 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":751,"blocks":8,"atimeMs":1641988493571.6838,"mtimeMs":1641988495036.865,"ctimeMs":1641988495036.865,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T11:54:53.572Z","mtime":"2022-01-12T11:54:55.037Z","ctime":"2022-01-12T11:54:55.037Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 19:59:39,643 WARN 30213 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 19:59:39,442 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":750,"blocks":8,"atimeMs":1641988496435.0063,"mtimeMs":1641988779379.8813,"ctimeMs":1641988779379.8813,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T11:54:56.435Z","mtime":"2022-01-12T11:59:39.380Z","ctime":"2022-01-12T11:59:39.380Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 19:59:39,443 INFO 30213 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 20:55:55,739 INFO 48169 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-12 20:55:55,746 INFO 48169 [egg:core] dump config after load, 2ms
+2022-01-12 20:55:55,787 INFO 48169 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-12 20:55:55,787 INFO 48169 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-12 20:55:55,787 INFO 48169 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-12 20:55:55,787 INFO 48169 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-12 20:55:55,788 INFO 48169 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-12 20:55:55,788 INFO 48169 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-12 20:55:55,788 INFO 48169 [egg-watcher:agent] watcher start success
+2022-01-12 20:55:55,801 INFO 48169 [egg:core] dump config after ready, 3ms
+2022-01-12 22:27:27,190 ERROR 48169 nodejs.ClusterClientNoResponseError: client no response in 969492ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 48169
+hostname: guchi.local
+
+2022-01-12 22:32:41,030 ERROR 48169 nodejs.ClusterClientNoResponseError: client no response in 294750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 48169
+hostname: guchi.local
+
+2022-01-12 22:58:16,166 INFO 70673 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-12 22:58:16,174 INFO 70673 [egg:core] dump config after load, 4ms
+2022-01-12 22:58:16,219 INFO 70673 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-12 22:58:16,219 INFO 70673 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-12 22:58:16,220 INFO 70673 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-12 22:58:16,220 INFO 70673 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-12 22:58:16,220 INFO 70673 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-12 22:58:16,220 INFO 70673 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-12 22:58:16,220 INFO 70673 [egg-watcher:agent] watcher start success
+2022-01-12 22:58:16,232 INFO 70673 [egg:core] dump config after ready, 5ms
+2022-01-12 23:01:49,665 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:01:49,458 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:01:49,463 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":706,"blocks":8,"atimeMs":1641992145466.843,"mtimeMs":1641999709393.0342,"ctimeMs":1641999709393.0342,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T12:55:45.467Z","mtime":"2022-01-12T15:01:49.393Z","ctime":"2022-01-12T15:01:49.393Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:03:43,329 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/service/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18308149,"size":598,"blocks":8,"atimeMs":1641987339141.5774,"mtimeMs":1641999823269.546,"ctimeMs":1641999823269.546,"birthtimeMs":1641891268631.7588,"atime":"2022-01-12T11:35:39.142Z","mtime":"2022-01-12T15:03:43.270Z","ctime":"2022-01-12T15:03:43.270Z","birthtime":"2022-01-11T08:54:28.632Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:03:43,330 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/service/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:03:43,531 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/service/user.js~ rename
+2022-01-12 23:05:10,786 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:05:10,585 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:05:10,586 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":707,"blocks":8,"atimeMs":1641999710765.2012,"mtimeMs":1641999910492.1345,"ctimeMs":1641999910492.1345,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:01:50.765Z","mtime":"2022-01-12T15:05:10.492Z","ctime":"2022-01-12T15:05:10.492Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:09:57,704 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:09:57,705 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":738,"blocks":8,"atimeMs":1641999912421.2568,"mtimeMs":1642000197642.995,"ctimeMs":1642000197642.995,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:05:12.421Z","mtime":"2022-01-12T15:09:57.643Z","ctime":"2022-01-12T15:09:57.643Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:09:57,905 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:10:23,077 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:10:22,876 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":780,"blocks":8,"atimeMs":1642000198938.5247,"mtimeMs":1642000222815.293,"ctimeMs":1642000222815.293,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:09:58.939Z","mtime":"2022-01-12T15:10:22.815Z","ctime":"2022-01-12T15:10:22.815Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:10:22,877 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:10:55,590 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:10:55,389 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":771,"blocks":8,"atimeMs":1642000224013.051,"mtimeMs":1642000255326.189,"ctimeMs":1642000255326.189,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:10:24.013Z","mtime":"2022-01-12T15:10:55.326Z","ctime":"2022-01-12T15:10:55.326Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:10:55,389 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:11:24,858 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:11:24,657 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":777,"blocks":8,"atimeMs":1642000257380.914,"mtimeMs":1642000284595.3906,"ctimeMs":1642000284595.3906,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:10:57.381Z","mtime":"2022-01-12T15:11:24.595Z","ctime":"2022-01-12T15:11:24.595Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:11:24,658 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:11:57,797 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":746,"blocks":8,"atimeMs":1642000285868.576,"mtimeMs":1642000317735.1582,"ctimeMs":1642000317735.1582,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:11:25.869Z","mtime":"2022-01-12T15:11:57.735Z","ctime":"2022-01-12T15:11:57.735Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:11:57,798 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:11:57,998 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:21:24,957 WARN 70673 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:21:24,755 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:21:24,756 INFO 70673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":746,"blocks":8,"atimeMs":1642000318942.4238,"mtimeMs":1642000884693.3909,"ctimeMs":1642000884693.3909,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:11:58.942Z","mtime":"2022-01-12T15:21:24.693Z","ctime":"2022-01-12T15:21:24.693Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:35:09,529 INFO 78786 [egg:logger] init all loggers with options: {"dir":"/Users/dasouche/Desktop/eggDemo/logs/eggDemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggDemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-12 23:35:09,537 INFO 78786 [egg:core] dump config after load, 4ms
+2022-01-12 23:35:09,589 INFO 78786 [egg-watcher] Start watching: ["/Users/dasouche/Desktop/eggDemo/app","/Users/dasouche/Desktop/eggDemo/config","/Users/dasouche/Desktop/eggDemo/mocks","/Users/dasouche/Desktop/eggDemo/mocks_proxy","/Users/dasouche/Desktop/eggDemo/app.js"]
+2022-01-12 23:35:09,589 INFO 78786 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app"
+2022-01-12 23:35:09,590 INFO 78786 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/config"
+2022-01-12 23:35:09,590 INFO 78786 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks"
+2022-01-12 23:35:09,590 INFO 78786 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/mocks_proxy"
+2022-01-12 23:35:09,590 INFO 78786 [egg-watcher] Start watching: "/Users/dasouche/Desktop/eggDemo/app.js"
+2022-01-12 23:35:09,590 INFO 78786 [egg-watcher:agent] watcher start success
+2022-01-12 23:35:09,608 INFO 78786 [egg:core] dump config after ready, 3ms
+2022-01-12 23:35:54,217 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:35:54,013 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":929,"blocks":8,"atimeMs":1642001683418.5713,"mtimeMs":1642001753950.6008,"ctimeMs":1642001753950.6008,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:34:43.419Z","mtime":"2022-01-12T15:35:53.951Z","ctime":"2022-01-12T15:35:53.951Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:35:54,016 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:37:02,434 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:37:02,232 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":965,"blocks":8,"atimeMs":1642001755264.9016,"mtimeMs":1642001822170.2954,"ctimeMs":1642001822170.2954,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:35:55.265Z","mtime":"2022-01-12T15:37:02.170Z","ctime":"2022-01-12T15:37:02.170Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:37:02,233 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:37:27,583 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:37:27,382 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":971,"blocks":8,"atimeMs":1642001823531.1902,"mtimeMs":1642001847322.219,"ctimeMs":1642001847322.219,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:37:03.531Z","mtime":"2022-01-12T15:37:27.322Z","ctime":"2022-01-12T15:37:27.322Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:37:27,383 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:44:05,287 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/router.js change
+2022-01-12 23:44:05,083 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/router.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:44:05,084 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908443,"size":335,"blocks":8,"atimeMs":1641823309719.7666,"mtimeMs":1642002245023.5762,"ctimeMs":1642002245023.5762,"birthtimeMs":1641634987190.053,"atime":"2022-01-10T14:01:49.720Z","mtime":"2022-01-12T15:44:05.024Z","ctime":"2022-01-12T15:44:05.024Z","birthtime":"2022-01-08T09:43:07.190Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:45:16,999 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/router.js~ rename
+2022-01-12 23:45:16,798 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1007,"blocks":8,"atimeMs":1642001848838.457,"mtimeMs":1642002316750.351,"ctimeMs":1642002316750.351,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:37:28.838Z","mtime":"2022-01-12T15:45:16.750Z","ctime":"2022-01-12T15:45:16.750Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:45:16,799 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:45:16,799 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17908443,"size":334,"blocks":8,"atimeMs":1642002246116.038,"mtimeMs":1642002316741.9375,"ctimeMs":1642002316741.9375,"birthtimeMs":1641634987190.053,"atime":"2022-01-12T15:44:06.116Z","mtime":"2022-01-12T15:45:16.742Z","ctime":"2022-01-12T15:45:16.742Z","birthtime":"2022-01-08T09:43:07.190Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:45:16,799 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/router.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:46:10,600 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:46:10,398 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1071,"blocks":8,"atimeMs":1642002318005.2773,"mtimeMs":1642002370338.3936,"ctimeMs":1642002370338.3936,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:45:18.005Z","mtime":"2022-01-12T15:46:10.338Z","ctime":"2022-01-12T15:46:10.338Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:46:10,400 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:46:39,064 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:46:38,862 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1124,"blocks":8,"atimeMs":1642002371582.5571,"mtimeMs":1642002398804.1125,"ctimeMs":1642002398804.1125,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:46:11.583Z","mtime":"2022-01-12T15:46:38.804Z","ctime":"2022-01-12T15:46:38.804Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:46:38,863 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:47:30,204 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:47:30,002 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:47:30,002 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1191,"blocks":8,"atimeMs":1642002399984.746,"mtimeMs":1642002449948.6812,"ctimeMs":1642002449948.6812,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:46:39.985Z","mtime":"2022-01-12T15:47:29.949Z","ctime":"2022-01-12T15:47:29.949Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:48:13,556 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:48:13,354 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1239,"blocks":8,"atimeMs":1642002450718.315,"mtimeMs":1642002493284.791,"ctimeMs":1642002493284.791,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:47:30.718Z","mtime":"2022-01-12T15:48:13.285Z","ctime":"2022-01-12T15:48:13.285Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:48:13,355 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:49:16,229 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1364,"blocks":8,"atimeMs":1642002494868.8909,"mtimeMs":1642002556141.5225,"ctimeMs":1642002556141.5225,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:48:14.869Z","mtime":"2022-01-12T15:49:16.142Z","ctime":"2022-01-12T15:49:16.142Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:49:16,229 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:49:16,429 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:49:59,415 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:49:59,214 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:49:59,215 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1309,"blocks":8,"atimeMs":1642002557527.394,"mtimeMs":1642002599130.15,"ctimeMs":1642002599130.15,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:49:17.527Z","mtime":"2022-01-12T15:49:59.130Z","ctime":"2022-01-12T15:49:59.130Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:50:29,907 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:50:29,705 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1392,"blocks":8,"atimeMs":1642002601104.2104,"mtimeMs":1642002629644.3853,"ctimeMs":1642002629644.3853,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:50:01.104Z","mtime":"2022-01-12T15:50:29.644Z","ctime":"2022-01-12T15:50:29.644Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:50:29,706 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:50:39,088 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:50:38,885 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:50:38,885 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1392,"blocks":8,"atimeMs":1642002630970.292,"mtimeMs":1642002638876.1157,"ctimeMs":1642002638876.1157,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:50:30.970Z","mtime":"2022-01-12T15:50:38.876Z","ctime":"2022-01-12T15:50:38.876Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:51:51,150 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:51:50,949 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1461,"blocks":8,"atimeMs":1642002640201.5767,"mtimeMs":1642002710876.2683,"ctimeMs":1642002710876.2683,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:50:40.202Z","mtime":"2022-01-12T15:51:50.876Z","ctime":"2022-01-12T15:51:50.876Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:51:50,950 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:51:52,407 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:51:52,408 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1449,"blocks":8,"atimeMs":1642002712116.2422,"mtimeMs":1642002712394.9758,"ctimeMs":1642002712394.9758,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:51:52.116Z","mtime":"2022-01-12T15:51:52.395Z","ctime":"2022-01-12T15:51:52.395Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:51:52,608 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:52:36,849 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:52:36,648 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:52:36,648 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1470,"blocks":8,"atimeMs":1642002713501.7134,"mtimeMs":1642002756585.587,"ctimeMs":1642002756585.587,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:51:53.502Z","mtime":"2022-01-12T15:52:36.586Z","ctime":"2022-01-12T15:52:36.586Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:53:13,480 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change
+2022-01-12 23:53:13,279 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:53:13,279 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1521,"blocks":8,"atimeMs":1642002757836.0627,"mtimeMs":1642002793216.4683,"ctimeMs":1642002793216.4683,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:52:37.836Z","mtime":"2022-01-12T15:53:13.216Z","ctime":"2022-01-12T15:53:13.216Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:53:40,580 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js~ rename
+2022-01-12 23:53:40,379 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1615,"blocks":8,"atimeMs":1642002794298.0083,"mtimeMs":1642002820318.6467,"ctimeMs":1642002820318.6467,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:53:14.298Z","mtime":"2022-01-12T15:53:40.319Z","ctime":"2022-01-12T15:53:40.319Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:53:40,379 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:54:01,453 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js~","remove":true,"isDirectory":false,"isFile":false}
+2022-01-12 23:54:01,454 INFO 78786 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dasouche/Desktop/eggDemo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18168724,"size":1748,"blocks":8,"atimeMs":1642002821557.5403,"mtimeMs":1642002841394.2686,"ctimeMs":1642002841394.2686,"birthtimeMs":1641823345693.6978,"atime":"2022-01-12T15:53:41.558Z","mtime":"2022-01-12T15:54:01.394Z","ctime":"2022-01-12T15:54:01.394Z","birthtime":"2022-01-10T14:02:25.694Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-01-12 23:54:01,654 WARN 78786 [agent:development] reload worker because /Users/dasouche/Desktop/eggDemo/app/controller/user.js change

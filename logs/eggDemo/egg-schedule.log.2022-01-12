@@ -1,0 +1,138 @@
+2022-01-12 04:31:28,078 INFO 89138 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86312497ms at 2022-01-13 04:30:00.574
+2022-01-12 04:31:27,947 INFO 92266 [Job#16419330874932788863588709621] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-01-12 04:31:28,153 INFO 92266 [Job#16419330874932788863588709621] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 187ms. 
+2022-01-12 19:27:46,271 INFO 28591 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 19:27:46,271 INFO 28591 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 19:27:46,271 INFO 28591 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 19:27:47,449 INFO 28577 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32532554ms at 2022-01-13 04:30:00.003
+2022-01-12 19:27:47,450 INFO 28577 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16332551ms at 2022-01-13 00:00:00.001
+2022-01-12 19:27:47,450 INFO 28577 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16333550ms at 2022-01-13 00:00:01.000
+2022-01-12 19:34:57,299 INFO 30234 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 19:34:57,299 INFO 30234 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 19:34:57,299 INFO 30234 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 19:34:58,687 INFO 30213 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32101315ms at 2022-01-13 04:30:00.002
+2022-01-12 19:34:58,687 INFO 30213 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15901313ms at 2022-01-13 00:00:00.000
+2022-01-12 19:34:58,688 INFO 30213 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15902313ms at 2022-01-13 00:00:01.001
+2022-01-12 19:35:40,527 INFO 30396 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 19:35:40,527 INFO 30396 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 19:35:40,527 INFO 30396 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 19:43:19,553 INFO 32076 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 19:43:19,553 INFO 32076 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 19:43:19,553 INFO 32076 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 19:54:54,390 INFO 34604 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 19:54:54,390 INFO 34604 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 19:54:54,390 INFO 34604 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 19:54:56,059 INFO 34619 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 19:54:56,059 INFO 34619 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 19:54:56,059 INFO 34619 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 19:59:41,464 INFO 35693 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 19:59:41,464 INFO 35693 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 19:59:41,464 INFO 35693 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 20:55:57,402 INFO 48169 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27242600ms at 2022-01-13 04:30:00.002
+2022-01-12 20:55:57,402 INFO 48169 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11042598ms at 2022-01-13 00:00:00.000
+2022-01-12 20:55:57,403 INFO 48169 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11043598ms at 2022-01-13 00:00:01.001
+2022-01-12 20:55:56,788 INFO 48173 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 20:55:56,788 INFO 48173 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 20:55:56,788 INFO 48173 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 22:58:17,087 INFO 70677 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 22:58:17,087 INFO 70677 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 22:58:17,087 INFO 70677 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 22:58:17,716 INFO 70673 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 19902287ms at 2022-01-13 04:30:00.003
+2022-01-12 22:58:17,716 INFO 70673 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 3702284ms at 2022-01-13 00:00:00.000
+2022-01-12 22:58:17,716 INFO 70673 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3703284ms at 2022-01-13 00:00:01.000
+2022-01-12 23:01:51,376 INFO 71455 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:01:51,376 INFO 71455 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:01:51,376 INFO 71455 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:03:45,044 INFO 71871 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:03:45,044 INFO 71871 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:03:45,044 INFO 71871 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:05:12,613 INFO 72191 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:05:12,613 INFO 72191 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:05:12,613 INFO 72191 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:09:59,700 INFO 73238 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:09:59,700 INFO 73238 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:09:59,700 INFO 73238 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:10:24,179 INFO 73329 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:10:24,179 INFO 73329 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:10:24,179 INFO 73329 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:10:56,863 INFO 73441 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:10:56,863 INFO 73441 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:10:56,863 INFO 73441 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:11:25,691 INFO 73544 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:11:25,691 INFO 73544 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:11:25,691 INFO 73544 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:11:58,762 INFO 73666 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:11:58,762 INFO 73666 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:11:58,762 INFO 73666 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:21:26,595 INFO 75768 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:21:26,595 INFO 75768 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:21:26,595 INFO 75768 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:35:10,496 INFO 78788 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:35:10,496 INFO 78788 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:35:10,496 INFO 78788 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:35:11,179 INFO 78786 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17688822ms at 2022-01-13 04:30:00.001
+2022-01-12 23:35:11,179 INFO 78786 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1488821ms at 2022-01-13 00:00:00.000
+2022-01-12 23:35:11,180 INFO 78786 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1489820ms at 2022-01-13 00:00:01.000
+2022-01-12 23:35:55,909 INFO 78951 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:35:55,909 INFO 78951 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:35:55,909 INFO 78951 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:37:04,041 INFO 79194 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:37:04,042 INFO 79194 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:37:04,042 INFO 79194 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:37:29,860 INFO 79297 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:37:29,860 INFO 79297 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:37:29,860 INFO 79297 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:44:06,887 INFO 80725 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:44:06,887 INFO 80725 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:44:06,887 INFO 80725 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:45:18,897 INFO 80994 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:45:18,897 INFO 80994 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:45:18,897 INFO 80994 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:46:12,391 INFO 81182 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:46:12,391 INFO 81182 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:46:12,391 INFO 81182 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:46:40,852 INFO 81283 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:46:40,852 INFO 81283 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:46:40,852 INFO 81283 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:47:32,166 INFO 81471 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:47:32,166 INFO 81471 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:47:32,166 INFO 81471 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:48:15,207 INFO 81624 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:48:15,207 INFO 81624 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:48:15,207 INFO 81624 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:49:18,099 INFO 81852 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:49:18,099 INFO 81852 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:49:18,099 INFO 81852 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:50:00,823 INFO 82015 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:50:00,823 INFO 82015 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:50:00,823 INFO 82015 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:50:31,536 INFO 82132 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:50:31,536 INFO 82132 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:50:31,536 INFO 82132 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:50:40,543 INFO 82170 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:50:40,543 INFO 82170 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:50:40,543 INFO 82170 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:51:53,320 INFO 82409 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:51:53,320 INFO 82409 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:51:53,320 INFO 82409 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:51:55,448 INFO 82426 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:51:55,448 INFO 82426 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:51:55,448 INFO 82426 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:52:37,818 INFO 82590 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:52:37,818 INFO 82590 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:52:37,818 INFO 82590 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:53:15,031 INFO 82729 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:53:15,031 INFO 82729 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:53:15,031 INFO 82729 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:53:42,818 INFO 82822 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:53:42,818 INFO 82822 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:53:42,818 INFO 82822 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-12 23:54:03,227 INFO 82897 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-01-12 23:54:03,227 INFO 82897 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-01-12 23:54:03,227 INFO 82897 [egg-schedule]: register schedule /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-01-13 00:00:00,118 INFO 82897 [Job#16420032001153489709668296781] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-01-13 00:00:00,127 INFO 82897 [Job#16420032001153489709668296781] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 8ms. 
+2022-01-13 00:00:00,122 INFO 78786 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399884ms at 2022-01-14 00:00:00.006
+2022-01-13 00:00:01,115 INFO 82897 [Job#16420032011153489719659272821] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-01-13 00:00:01,122 INFO 82897 [Job#16420032011153489719659272821] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms. 
+2022-01-13 00:00:01,120 INFO 78786 [Timer] /Users/dasouche/Desktop/eggDemo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399885ms at 2022-01-14 00:00:01.005

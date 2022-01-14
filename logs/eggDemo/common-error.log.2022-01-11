@@ -1,0 +1,868 @@
+2022-01-11 00:13:18,011 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 571331ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 00:13:18,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 00:23:28,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 00:23:28,071 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566275ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 00:33:34,011 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 565539ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 00:33:34,007 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 00:43:40,005 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 00:43:40,010 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566662ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 00:53:52,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 00:53:52,011 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569253ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 01:03:55,005 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 01:03:55,011 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566907ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 01:13:32,012 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 552738ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 01:13:32,007 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 01:23:13,990 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 581798ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 01:33:24,515 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 01:33:24,515 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570186ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 01:43:39,466 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 01:43:39,463 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 575598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 01:53:48,513 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 567833ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 01:53:48,583 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 02:04:01,540 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 571291ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 02:04:01,515 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 02:14:12,509 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569164ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 02:14:12,440 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 02:24:23,533 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569887ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 02:24:23,512 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 02:34:30,490 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 02:34:30,545 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569579ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 02:44:48,610 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 02:44:48,518 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 574221ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 02:54:57,571 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 02:54:57,493 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569419ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 03:05:08,485 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569648ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 03:05:08,509 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 03:15:20,464 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 03:15:20,563 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 568879ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 03:25:32,610 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 03:25:32,620 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570576ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 03:35:40,632 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 03:35:40,619 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569743ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 03:45:52,542 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 03:45:52,381 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 03:56:00,604 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 03:56:00,519 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569406ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 04:06:16,592 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 571519ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 04:06:16,463 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 04:16:27,494 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 04:16:27,524 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570693ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 04:26:36,579 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 04:26:36,550 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 568815ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 04:36:48,470 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 04:36:48,536 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570342ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 04:46:59,457 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569772ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 04:46:59,613 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 04:57:11,554 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570799ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 04:57:11,509 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 05:07:19,634 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 05:07:19,638 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 05:17:31,603 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569008ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 05:17:31,492 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 05:27:43,781 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 571002ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 05:27:43,508 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 05:37:55,613 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 571788ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 05:37:55,432 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 05:48:06,653 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570608ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 05:48:06,576 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 05:58:16,607 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 05:58:16,612 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569890ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 06:08:27,523 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 06:08:27,467 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570575ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 06:18:37,464 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 06:18:37,466 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 06:28:53,486 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 575286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 06:28:53,532 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 06:39:07,484 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 06:39:07,446 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 572877ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 06:49:22,549 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 06:49:22,579 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 574026ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 06:59:32,680 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570011ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 06:59:32,766 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 07:09:41,517 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570368ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 07:09:41,643 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 07:19:40,649 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 576055ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 07:19:40,612 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 07:29:51,596 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 570297ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 07:29:51,477 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 07:40:03,584 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 07:40:03,540 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 571057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 07:50:15,575 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 573537ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 07:50:15,581 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 08:00:27,596 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 568534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 08:00:27,500 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 08:10:43,607 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 08:10:43,551 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 574357ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 08:20:51,597 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 08:20:51,598 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 08:31:04,481 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 08:31:04,457 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 569806ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 08:38:33,603 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 407465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 08:38:33,613 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 08:47:57,079 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 563366ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 08:58:03,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 08:58:03,072 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 565663ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 09:08:09,081 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 565196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 09:08:09,011 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 09:18:16,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 09:18:16,010 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566203ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 09:28:19,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 09:28:19,011 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566118ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 09:38:29,071 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566949ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 09:38:29,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 09:48:36,013 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 09:48:36,006 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 09:58:43,013 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566261ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 09:58:43,008 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 10:08:49,010 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 565386ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 10:08:49,005 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 10:18:54,005 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 10:18:54,073 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 566809ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 10:33:04,008 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 10:33:04,013 ERROR 43396 nodejs.ClusterClientNoResponseError: client no response in 809511ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 43396
+hostname: guchi.local
+
+2022-01-11 10:34:51,543 ERROR 43403 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 11:15:41,147 ERROR 67210 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 11:30:58,728 ERROR 67210 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 11:31:20,548 ERROR 67210 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 16:00:13,298 ERROR 29980 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 16:00:13,299 ERROR 29980 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 29980
+hostname: guchi.local
+
+2022-01-11 16:00:13,303 ERROR 29980 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 29980
+hostname: guchi.local
+
+2022-01-11 16:00:13,314 ERROR 29980 [-/127.0.0.1/-/1ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 29980
+hostname: guchi.local
+
+2022-01-11 16:03:09,164 ERROR 30684 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 16:03:09,166 ERROR 30684 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 30684
+hostname: guchi.local
+
+2022-01-11 16:03:09,178 ERROR 30684 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 30684
+hostname: guchi.local
+
+2022-01-11 16:03:09,186 ERROR 30684 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 30684
+hostname: guchi.local
+
+2022-01-11 16:04:47,919 ERROR 31091 [egg-mongoose] mongodb://81.68.244.201/example disconnected
+2022-01-11 16:04:47,921 ERROR 31091 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 31091
+hostname: guchi.local
+
+2022-01-11 16:04:47,924 ERROR 31091 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 31091
+hostname: guchi.local
+
+2022-01-11 16:04:47,929 ERROR 31091 [-/127.0.0.1/-/1ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 81.68.244.201:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 31091
+hostname: guchi.local
+
+2022-01-11 17:12:46,040 ERROR 44241 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 17:12:46,103 ERROR 33052 nodejs.ClusterClientNoResponseError: client no response in 520747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 33052
+hostname: guchi.local
+
+2022-01-11 21:56:23,323 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 1213431ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 21:56:23,325 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 22:16:54,006 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 22:16:54,069 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 1213762ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 22:37:48,008 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 22:37:48,013 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 1209205ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 22:53:31,008 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 22:53:31,014 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 902910ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 23:05:53,015 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 701355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 23:05:53,011 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 23:16:02,014 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 569292ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 23:16:02,010 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 23:26:07,063 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 565419ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 23:26:07,007 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 23:36:05,013 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 557036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 23:36:05,009 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-11 23:45:46,789 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 581707ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 23:55:57,585 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 573374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-11 23:55:57,567 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-12 00:06:12,843 ERROR 89138 nodejs.ClusterClientNoResponseError: client no response in 572353ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 89138
+hostname: guchi.local
+
+2022-01-12 00:06:12,526 ERROR 92266 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected

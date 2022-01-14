@@ -1,0 +1,62 @@
+2022-01-14 00:17:44,012 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 566461ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 00:17:44,007 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:27:50,012 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 564902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 00:27:50,007 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:31:56,011 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 204354ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 00:31:56,005 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:41:32,671 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 576621ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 00:51:41,637 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:51:41,696 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 569901ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 01:01:55,606 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 570902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 01:01:55,529 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 01:04:41,548 ERROR 5657 nodejs.ClusterClientNoResponseError: client no response in 125111ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dasouche/Desktop/eggDemo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 5657
+hostname: guchi.local
+
+2022-01-14 01:04:41,851 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected

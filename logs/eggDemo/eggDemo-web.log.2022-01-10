@@ -1,0 +1,114 @@
+2022-01-08 18:00:26,228 ERROR 87618 [-/127.0.0.1/-/1ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87618
+hostname: guchi.local
+
+2022-01-08 18:00:49,810 ERROR 87736 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87736
+hostname: guchi.local
+
+2022-01-08 18:02:01,520 ERROR 87994 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 87994
+hostname: guchi.local
+
+2022-01-08 18:02:15,092 ERROR 88075 [-/127.0.0.1/-/1ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 88075
+hostname: guchi.local
+
+2022-01-08 18:04:14,987 ERROR 88407 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/connection.js:847:32)
+    at Mongoose.createConnection (/Users/dasouche/Desktop/eggDemo/node_modules/mongoose/lib/index.js:291:17)
+    at Singleton.createOneClient [as create] (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:82:23)
+    at Singleton.createInstance (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/egg.js:467:35)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/lib/mongoose.js:34:7)
+    at module.exports (/Users/dasouche/Desktop/eggDemo/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/dasouche/Desktop/eggDemo/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/dasouche/Desktop/eggDemo/node_modules/egg/lib/application.js:66:19)
+    at Object.<anonymous> (/Users/dasouche/Desktop/eggDemo/node_modules/egg-cluster/lib/app_worker.js:23:9)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 88407
+hostname: guchi.local
+

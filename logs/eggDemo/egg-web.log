@@ -1,0 +1,35 @@
+2022-01-14 00:07:38,125 INFO 30700 [egg-logrotator] app logger reload: got log-reload message
+2022-01-14 00:07:47,455 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo connected successfully
+2022-01-14 00:07:47,455 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo reconnected successfully
+2022-01-14 00:17:44,008 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:17:44,008 WARN 30700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-14 00:17:44,008 WARN 30700 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-14 00:17:55,115 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo connected successfully
+2022-01-14 00:17:55,115 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo reconnected successfully
+2022-01-14 00:27:50,008 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:27:50,008 WARN 30700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-14 00:27:50,008 WARN 30700 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-14 00:28:01,639 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo connected successfully
+2022-01-14 00:28:01,639 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo reconnected successfully
+2022-01-14 00:31:56,005 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:31:56,008 WARN 30700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-14 00:31:56,008 WARN 30700 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-14 00:41:32,862 WARN 30700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-14 00:41:32,866 WARN 30700 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-14 00:41:32,966 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo connected successfully
+2022-01-14 00:41:32,967 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo reconnected successfully
+2022-01-14 00:51:41,638 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 00:51:41,666 WARN 30700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-14 00:51:41,666 WARN 30700 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-14 00:51:54,428 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo connected successfully
+2022-01-14 00:51:54,430 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo reconnected successfully
+2022-01-14 01:01:55,532 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 01:01:55,767 WARN 30700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-14 01:01:55,768 WARN 30700 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-14 01:02:06,187 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo connected successfully
+2022-01-14 01:02:06,188 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo reconnected successfully
+2022-01-14 01:04:41,852 ERROR 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo disconnected
+2022-01-14 01:04:41,856 WARN 30700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-01-14 01:04:41,858 WARN 30700 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-01-14 01:04:51,171 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo connected successfully
+2022-01-14 01:04:51,171 INFO 30700 [egg-mongoose] mongodb://localhost:27017/noteDemo reconnected successfully
